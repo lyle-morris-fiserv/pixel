@@ -309,14 +309,16 @@ The tokens should function as a common language during the product cycle. It is 
 | `$background_hover `            |                       |                       |
 | `$background_inverse`           |                       |                       |
 | `$background_inverse_hover`     |                       |                       |
-| `$background_selected `         |                       |                       |
+| `$background_active`            |                       |                       |
+| `$background_active_hover`      |                       |                       |
+| `$background_selected`          |                       |                       |
 | `$background_seected_hover`     |                       |                       |
 
 
 ### Border
 
 | Token name                      | Light theme           | Dark theme            |
-| ------------------------------- | --------------------- | --------------------- |
+| :------------------------------ | :-------------------- | :-------------------- |
 | `$border_interactive`           | '$blue_800'           | '$blue_600'           |
 | `$border_subtle_1 `             | '$gray_300'           | '$gray_800'           |
 | `$border_subtle_2`              |                       |                       |
@@ -336,10 +338,162 @@ The tokens should function as a common language during the product cycle. It is 
 | `$border_inverse`               | '$gray_700'           | '$gray_100'           |
 | `$border_disabled`              | '$gray_300'           | '$gray_500'           |
 
+### Button
 
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$button_primary`               | '$blue_800'           | '$blue_600'           |
+| `$button_primary_hover`         | '$blue_700'           | '$blue_500'           |
+| `$button_primary_active`        |                       |                       |
+| `$button_primary_selected`      | '$blue_900'           | '$blue_800'           |
+| `$button_secondary`             | '$blue_800'           | '$white'              |
+| `$button_secondary_hover`       | '$blue_700'           | 'rgba($white,.25)'    |
+| `$button_secondary_active`      |                       |                       |
+| `$button_secondary_selected`    | '$blue_900'           | 'rgba($white,.25)'    |
+| `$button_tertiary`              | 'rgba($blue_800,.00)' | 'rgba($white,.00)'    |
+| `$button_tertiary_hover`        | 'rgba($blue_800'.25)' | 'rgba($white,.25)'    |
+| `$button_tertiary_active`       |                       |                       |
+| `$button_tertiary_selected`     | 'rgba($blue_800'.25)' | 'rgba($white,.25)'    |
+| `$button_danger`                | '$red_800'            | '$red_700'            |
+| `$button_danger_hover`          | '$red_700'            | '$red_600'            |
+| `$button_danger_active`         |                       |                       |
+| `$button_danger_selected`       | '$red_400'            | '$red_900'            |
+| `$button_seperator`             |                       |                       |
+| `$button_danger_selected`       | '$gray_400'           | '$gray_600'           |
 
+### Field
 
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$field_1`                      | '$white'              | '$black'              |
+| `$field_2`                      |                       |                       | 
+| `$field_3`                      |                       |                       |
+| `$field_hover_1`                |                       |                       |
+| `$field_hover_2`                |                       |                       |
+| `$field_hover_3`                |                       |                       |
+| `$field_disabled_1`             | '$gray_100'           | '$gray_900'           |
+| `$field_disabled_2`             |                       |                       |
+| `$field_disabled_3`             |                       |                       |
+| `$fieldset_1`                   | '$gray_50'            | '$gray_800'           |
+| `$fieldset_2`                   |                       |                       |
+| `$fieldset_3`                   |                       |                       |
 
+### Focus
 
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$focus`                        | '$blue_800'           | '$white'              |
+| `$focus_highlight`              | '$blue_A100'          | 'rgba($white,.25)'    |
+| `$focus_inset`                  |                       |                       |
+| `$focus_inverse`                | '$white'              | '$blue_600'           |
+| `$focus_inverse_highlight`      | 'rgba($white,.10)'    | 'rgba($blue_600,.10)' |
 
+### Icon
+
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$icon_primary`                 | '$gray_900'           | '$gray_100'           |
+| `$icon_secondary`               | '$gray_700'           | '$gray_300'           |
+| `$icon_on_color`                | '$white'              | '$white'              |
+| `$icon_on_color_disabled`       | 'rgba($white,.50)'    | 'rgba($white,.50)'    |
+| `$icon_interactive`             | '$blue_700'           | '$blue_600'           |
+| `$icon_inverse`                 | '$white'              | '$black'              |
+| `$icon_disabled`                | '$gray_500'           | 'gray_600'            |
+
+### Layer
+
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$layer_1`                      | '$white'              | '$gray_900'           |
+| `$layer_2`                      | '$slate_50'           | '$gray_800'           |
+| `$layer_3`                      | '$white'              | '$gray_900'           |
+| `$layer_hover_1`                | '$slate_50'           | '$gray_800'           |
+| `$layer_hover_2`                | '$slate_100'          | '$gray_700'           |
+| `$layer_hover_3`                | '$slate_50'           | '$gray_600'           |
+| `$layer_active_1`               |                       |                       |
+| `$layer_active_2`               |                       |                       |
+| `$layer_active_3`               |                       |                       |
+| `$layer_active_hover_1`         |                       |                       |
+| `$layer_active_hover_2`         |                       |                       |
+| `$layer_active_hover_3`         |                       |                       |
+| `$layer_selected_1`             | '$blue_900'           | '$gray_900'           |
+| `$layer_selected_2`             | '$blue_900'           | '$gray_900'           |
+| `$layer_selected_3`             | '$blue_900'           | '$gray_900'           |
+| `$layer_selected_hover_1`       |                       |                       |
+| `$layer_selected_hover_2`       |                       |                       |
+| `$layer_selected_hover_3`       |                       |                       |
+| `$layer_disabled_1`             | '$gray_100'           |'$gray_800'            |
+| `$layer_disabled_2`             |                       |                       |
+| `$layer_disabled_3`             |                       |                       |
+
+### Layer accent
+
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$layer_accent_1`               | '$gray_300'           | '$gray_800'           |
+| `$layer_accent_2`               |                       |                       |
+| `$layer_accent_3`               |                       |                       |
+| `$layer_accent_hover_1`         |                       |                       |
+| `$layer_accent_hover_2`         |                       |                       |
+| `$layer_accent_hover_3`         |                       |                       |
+| `$layer_accent_active_1`        |                       |                       |
+| `$layer_accent_active_2`        |                       |                       |
+| `$layer_accent_active_3`        |                       |                       |
+| `$layer_accent_selected_1`      |                       |                       |
+| `$layer_accent_selected_2`      |                       |                       |
+| `$layer_accent_selected_3`      |                       |                       |
+
+### Link
+
+| Token name                      | Light theme           | Dark theme            |
+| :------------------------------ | :-------------------- | :-------------------- |
+| `$link_primary`                 | '$blue_700'           | '$blue_400'           |
+| `$link_primary_hover`           | '$blue_800'           | '$blue_300'           |
+| `$link_primary_active`          |                       |                       |
+| `$link_primary_selected`        | '$blue_900'           | '$blue_900'           |
+| `$link_secondary`               |                       |                       |
+| `$link_secondary_hover`         |                       |                       |
+| `$link_secondary_active`        |                       |                       | 
+| `$link_secondary_selected`      |                       |                       |
+| `$link_inverse`                 | '$blue_500'           | '$blue_600'           |
+| `$link_inverse_hover`           |                       |                       |
+| `$link_inverse_active`          |                       |                       |
+| `$link_inverse_selected`        |                       |                       |
+| `$link_visited`                 |                       |                       |
+| `$link_disabled`                | '$gray_500'           | '$gray_500'           |
+
+### Support
+
+| Token name                      | Light theme           | Dark theme             |
+| :------------------------------ | :-------------------- | :--------------------- |
+| `$support_error`                | '$red_800'            | '$red_700'             |
+| `$support_error_bg`             | '$red_A100'           | 'rgba($red_700,.10)'   |
+| `$support_success`              | '$green_900'          | '$green_700'           |
+| `$support_success_bg`           | '$green_A100'         | 'rgba($green_700,.10)' |
+| `$support_warning`              | '$orange_500'         | '$orange_400'          |
+| `$support_warning_bg`           | '$orange_A100'        | 'rgba($orange_400,.10)'|
+| `$support_information`          | '$blue_800'           | '$blue_600'            |
+| `$support_information_bg`       | '$blue_A100'          | '$rgba($blue_600,.10)' |
+
+### Text
+
+| Token name                      | Light theme           | Dark theme             |
+| :------------------------------ | :-------------------- | :--------------------- |
+| `$text_primary`                 | '$gray_900'           | '$gray_100'            |
+| `$text_secondary`               | '$gray_700'           | '$gray_300'            |
+| `$text_placeholder`             | '$gray_500'           | '$gray_600'            |
+| `$text_on_color`                | '$white'              | '$white'               |
+| `$text_on_color_disabled`       | '$rgba($white,.50)'   | 'rgba($white,.50)'     | 
+| `$text_inverse`                 | '$white'              | '$black'               |
+| `$text_disabled`                | '$gray_500'           | '$gray_600'            |
+
+### Miscellaneous
+
+| Token name                      | Light theme           | Dark theme             |
+| :------------------------------ | :-------------------- | :--------------------- |
+| `$interative`                   | '$blue_800'           | '$blue_600'            |
+| `$highlight`                    |                       |                        |
+| `$overlay`                      | 'rgba($black,.50)'    | 'rgba($black,.50)'     |
+| `$skeleton_element`             | '$gray_400'           | '$gray_800'            |
+| `$skeleton_background`          | '$gray_200'           | 'gray_900'             |
 
