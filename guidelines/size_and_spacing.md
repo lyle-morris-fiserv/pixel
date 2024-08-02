@@ -464,7 +464,7 @@ The tokens should function as a common language during the product cycle. It is 
 
 ## Box Shadow
 
-| Token name                      | Color.           | Length 1 | Length 2  | Length 3 |
+| Token name                      | Color            | Length 1 | Length 2  | Length 3 |
 | :------------------------------ | :--------------- | : ------ | : ------- | :------- |
 | `$shadow_1`                     | rgba(0,0,0,0.12) | 0px      | 01px      | 03px     |
 |                                 | rgba(0,0,0,0.24) | 0px      | 01px      | 02px     |
