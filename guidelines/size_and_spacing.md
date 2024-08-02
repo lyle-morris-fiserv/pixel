@@ -21,7 +21,7 @@ The tokens should function as a common language during the product cycle. It is 
 | `$base_border`                  | `$border_1`           | `$border_1`           |
 | `$base_border_radius`           | 4px                   | 4px                   |
 
-### [Accordion](./components/accordion.md)
+### [Accordion](blob/main/components/accordion.md)
 
 | Token name                      | Light theme           | Dark theme            |
 | :------------------------------ | :-------------------- | :-------------------- |
