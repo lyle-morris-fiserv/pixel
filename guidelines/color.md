@@ -1,5 +1,4 @@
 # Color
-![blue](https://readme-swatches.vercel.app/EEF2F6)
 ## Overview
 
 The default themes are derived from the design system's color palette. The slate blue family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones. The core blue family serves as the primary action color across all Fiserv products and experiences. Additional colors are used sparingly and purposefully.
@@ -779,11 +778,13 @@ The tokens should function as a common language during the product cycle. It is 
 | `$deep_orange_050`    | `#FBE9E7`               | `$black`             | 17.91:1              |
 | `$deep_orange_A10`    | `#FDF0EF`               | `$black`             | 18.88:1              |
 
+![blue](https://readme-swatches.vercel.app/EEF2F6)
+
 ### Brown
 
 | Token name            | Background              | Foreground           | WCAG Ratio           |
 | :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$brown_900`          | `#3E2723`               | `$white`             | 13.82:1              |
+| `$brown_900`          | ![#3E2723](https://readme-swatches.vercel.app/3E2723)               | `$white`             | 13.82:1              |
 | `$brown_800`          | `#4E342E`               | `$white`             | 11.32:1              |
 | `$brown_700`          | `#5D4037`               | `$white`             | 09.31:1              |
 | `$brown_600`          | `#6D4C41`               | `$white`             | 07.06:1              |
