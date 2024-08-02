@@ -1,5 +1,5 @@
 # Color
-[blue](https://readme-swatches.vercel.app/EEF2F6)
+https://readme-swatches.vercel.app/EEF2F6
 ## Overview
 
 The default themes are derived from the design system's color palette. The slate blue family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones. The core blue family serves as the primary action color across all Fiserv products and experiences. Additional colors are used sparingly and purposefully.
