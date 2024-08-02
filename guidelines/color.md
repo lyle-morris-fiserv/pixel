@@ -813,7 +813,7 @@ The tokens should function as a common language during the product cycle. It is 
 ### Deep Orange
 
 | Token name            | Background                                                                                 | Foreground                                                                                 | WCAG Ratio           |
-| :-------------------- | :----------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :------------------- | 
+| :-------------------- | :----------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | -------------------: | 
 | `$deep_orange_900`    | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/BF360C'/> #BF360C | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/FFFFFF'/> $white    | 05.06:1              |
 | `$deep_orange_800`    | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/D84315'/> #D84315 | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/000000'/> $black    | 04.73:1              |
 | `$deep_orange_700`    | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/E64A19'/> #E64A19 | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/000000'/> $black    | 05.35:1              |
