@@ -294,7 +294,7 @@ Since this is a user preference, you’ll need to add a control somewhere in you
 
 Mixing themes inline is still allowed with light or dark mode. Mixing inline theme contrast between elements in different modes is also allowed. It is very common for products to have side panels or UI shell elements be high contrast in light mode but low contrast in dark mode. These relationships can be mapped in code using the theme component. Note that smaller components built with an inverse tokens (like tooltip) should remain high contrast when switching modes.
 
-## Pixel's core color token architecture
+## Core color tokens
 
 The color tokens help you control the visual layer of your system’s components at the atom level for global consistency. Depending on the components defined in your initial system, the maturity of this template can include any additional components or attributes in the future.
 
@@ -496,4 +496,203 @@ The tokens should function as a common language during the product cycle. It is 
 | `$overlay`                      | 'rgba($black,.50)'    | 'rgba($black,.50)'     |
 | `$skeleton_element`             | '$gray_400'           | '$gray_800'            |
 | `$skeleton_background`          | '$gray_200'           | 'gray_900'             |
+
+
+## Palette token
+
+### Red
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$red_900`            | `#C00000`               | `$white`             | 06.47:1              |
+| `$red_800`            | `#CE1A12`               | `$white`             | 05.55:1              |
+| `$red_700`            | `#DB231B`               | `$white`             | 04.92:1              |
+| `$red_600`            | `#ED3020`               | `$black`             | 05.04:1              |
+| `$red_500`            | `#FB3C1E`               | `$black`             | 05.76:1              |
+| `$red_400`            | `#F74D40`               | `$black`             | 06.09:1              |
+| `$red_300`            | `#EE6F68`               | `$black`             | 07.01:1              |
+| `$red_200`            | `#F69892`               | `$black`             | 09.82:1              |
+| `$red_100`            | `#FFCCCE`               | `$black`             | 14.78:1              |
+| `$red_050`            | `#FFEAED`               | `$black`             | 18.24:1              |
+| `$red_A10`            | `#FFF7F8`               | `$black`             | 19.91:1              |
+
+### Pink
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$pink_900`           | `#880E4F`               | `$white`             | 09.44:1              |
+| `$pink_800`           | `#AD1457`               | `$white`             | 06.96:1              |
+| `$pink_700`           | `#C2185B`               | `$white`             | 05.87:1              |
+| `$pink_600`           | `#D81B60`               | `$white`             | 04.94:1              |
+| `$pink_500`           | `#E91E63`               | `$black`             | 04.86:1              |
+| `$pink_400`           | `#EC407A`               | `$black`             | 05.58:1              |
+| `$pink_300`           | `#F06292`               | `$black`             | 06.86:1              |
+| `$pink_200`           | `#F48FB1`               | `$black`             | 09.41:1              |
+| `$pink_100`           | `#F8BBD0`               | `$black`             | 13.01:1              |
+| `$pink_050`           | `#FCE4EC`               | `$black`             | 17.47:1              |
+| `$pink_A10`           | `#FDEFF4`               | `$black`             | 18.82:1              |
+
+### Purple
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$purple_900`         | `#4A148C`               | `$white`             | 11.86:1              |
+| `$purple_800`         | `#6A1B9A`               | `$white`             | 09.39:1              |
+| `$purple_700`         | `#7B1FA2`               | `$white`             | 08.20:1              |
+| `$purple_600`         | `#8E24AA`               | `$white`             | 07.03:1              |
+| `$purple_500`         | `#9C27B0`               | `$white`             | 06.30:1              |
+| `$purple_400`         | `#AB47BC`               | `$white`             | 04.81:1              |
+| `$purple_300`         | `#BA68C8`               | `$black`             | 05.90:1              |
+| `$purple_200`         | `#CE93D8`               | `$black`             | 08.78:1              |
+| `$purple_100`         | `#E1BEE7`               | `$black`             | 12.72:1              |
+| `$purple_050`         | `#F3E5F5`               | `$black`             | 17.33:1              |
+| `$purple_A10`         | `#F8EFF9`               | `$black`             | 18.70:1              |
+
+### Deep Purple
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$deep_purple_900`    | `#311B92`               | `$white`             | 12.33:1              |
+| `$deep_purple_800`    | `#4527A0`               | `$white`             | 10.23:1              |
+| `$deep_purple_700`    | `#512DA8`               | `$white`             | 09.16:1              |
+| `$deep_purple_600`    | `#5E35B1`               | `$white`             | 08.01:1              |
+| `$deep_purple_500`    | `#673AB7`               | `$white`             | 07.32:1              |
+| `$deep_purple_400`    | `#7E57C2`               | `$white`             | 05.21:1              |
+| `$deep_purple_300`    | `#9575CD`               | `$black`             | 05.70:1              |
+| `$deep_purple_200`    | `#B39DDB`               | `$black`             | 08.76:1              |
+| `$deep_purple_100`    | `#D1C4E9`               | `$black`             | 12.78:1              |
+| `$deep_purple_050`    | `#EDE7F6`               | `$black`             | 17.36:1              |
+| `$deep_purple_A10`    | `#F4F1FA`               | `$black`             | 18.80:1              |
+
+### Indigo
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$indigo_900`         | `#1A237E`               | `$white`             | 13.24:1              |
+| `$indigo_800`         | `#283593`               | `$white`             | 10.39:1              |
+| `$indigo_700`         | `#303F9F`               | `$white`             | 08.98:1              |
+| `$indigo_600`         | `#3949AB`               | `$white`             | 07.73:1              |
+| `$indigo_500`         | `#3F51B5`               | `$white`             | 06.87:1              |
+| `$indigo_400`         | `#5C6BC0`               | `$white`             | 04.86:1              |
+| `$indigo_300`         | `#7986CB`               | `$black`             | 06.08:1              |
+| `$indigo_200`         | `#9FA8DA`               | `$black`             | 09.08:1              |
+| `$indigo_100`         | `#C5CAE9`               | `$black`             | 12.99:1              |
+| `$indigo_050`         | `#E8EAF6`               | `$black`             | 17.53:1              |
+| `$indigo_A10`         | `#EFF1F9`               | `$black`             | 18.62:1              |
+
+### Blue
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$blue_900`           | `#29479E`               | `$white`             | 08.43:1              |
+| `$blue_800`           | `#3165BE`               | `$white`             | 05.62:1              |
+| `$blue_700`           | `#3676D0`               | `$white`             | 04.50:1              |
+| `$blue_600`           | `#3C88E3`               | `$white`             | 03.60:1              |
+| `$blue_500`           | `#3F96F1`               | `$white`             | 03.06:1              |
+| `$blue_400`           | `#53A5F4`               | `$black`             | 08.05:1              |
+| `$blue_300`           | `#6EB5F6`               | `$black`             | 09.60:1              |
+| `$blue_200`           | `#96CAF9`               | `$black`             | 12.11:1              |
+| `$blue_100`           | `#BEDEFB`               | `$black`             | 15.03:1              |
+| `$blue_050`           | `#E4F2FD`               | `$black`             | 18.41:1              |
+| `$blue_A10`           | `#F9FCFF`               | `$black`             | 20.39:1              |
+
+### Light Blue
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$light_blue_900`     | `#01579B`               | `$white`             | 07.39:1              |
+| `$light_blue_800`     | `#0277BD`               | `$white`             | 04.79:1              |
+| `$light_blue_700`     | `#0288D1`               | `$black`             | 04.37:1              |
+| `$light_blue_600`     | `#039BE5`               | `$black`             | 06.82:1              |
+| `$light_blue_500`     | `#03A9F4`               | `$black`             | 07.98:1              |
+| `$light_blue_400`     | `#29B6F6`               | `$black`             | 09.11:1              |
+| `$light_blue_300`     | `#4FC3F7`               | `$black`             | 10.48:1              |
+| `$light_blue_200`     | `#81D4FA`               | `$black`             | 12.73:1              |
+| `$light_blue_100`     | `#B3E5FC`               | `$black`             | 15.53:1              |
+| `$light_blue_050`     | `#E1F5FE`               | `$black`             | 18.69:1              |
+| `$light_blue_A10`     | `#F0FAFE`               | `$black`             | 19.81:1              |
+
+### Cyan
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$cyan_900`           | `#006064`               | `$white`             | 07.34:1              |
+| `$cyan_800`           | `#00838F`               | `$black`             | 04.64:1              |
+| `$cyan_700`           | `#0097A7`               | `$black`             | 05.98:1              |
+| `$cyan_600`           | `#00ACC1`               | `$black`             | 07.67:1              |
+| `$cyan_500`           | `#00BCD4`               | `$black`             | 09.14:1              |
+| `$cyan_400`           | `#26C6DA`               | `$black`             | 10.17:1              |
+| `$cyan_300`           | `#4DD0E1`               | `$black`             | 11.42:1              |
+| `$cyan_200`           | `#80DEEA`               | `$black`             | 13.55:1              |
+| `$cyan_100`           | `#B2EBF2`               | `$black`             | 16.05:1              |
+| `$cyan_050`           | `#E0F7FA`               | `$black`             | 18.85:1              |
+| `$cyan_A10`           | `#EFFBFC`               | `$black`             | 19.87:1              |
+
+### Teal
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$teal_900`           | `#004D40`               | `$white`             | 09.83:1              |
+| `$teal_800`           | `#00695C`               | `$white`             | 06.61:1              |
+| `$teal_700`           | `#00796B`               | `$white`             | 05.32:1              |
+| `$teal_600`           | `#00897B`               | `$black`             | 04.86:1              |
+| `$teal_500`           | `#009688`               | `$black`             | 05.71:1              |
+| `$teal_400`           | `#26A69A`               | `$black`             | 00.07:1              |
+| `$teal_300`           | `#4DB6AC`               | `$black`             | 08.06:1              |
+| `$teal_200`           | `#80CBC4`               | `$black`             | 11.25:1              |
+| `$teal_100`           | `#B2DFDB`               | `$black`             | 14.47:1              |
+| `$teal_050`           | `#E0F2F1`               | `$black`             | 18.14:1              |
+| `$teal_A10`           | `#EFF8F8`               | `$black`             | 19.45:1              |
+
+### Green
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$green_900`          | `#006216`               | `$white`             | 07.61:1              |
+| `$green_800`          | `#00812B`               | `$white`             | 05.02:1              |
+| `$green_700`          | `#149236`               | `$black`             | 05.19:1              |
+| `$green_600`          | `#23A441`               | `$black`             | 06.45:1              |
+| `$green_500`          | `#009688`               | `$black`             | 07.66:1              |
+| `$green_400`          | `#53BF66`               | `$black`             | 09.01:1              |
+| `$green_300`          | `#74CB82`               | `$black`             | 10.06:1              |
+| `$green_200`          | `#9DD9A6`               | `$black`             | 12.09:1              |
+| `$green_100`          | `#C4E8C8`               | `$black`             | 15.72:1              |
+| `$green_050`          | `#E0F2F1`               | `$black`             | 18.72:1              |
+| `$green_A10`          | `#F7FCF8`               | `$black`             | 20.23:1              |
+
+### Light Green
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$light_green_900`    | `#33691E`               | `$white`             | 06.06:1              |
+| `$light_green_800`    | `#558B2F`               | `$black`             | 05.12:1              |
+| `$light_green_700`    | `#689F38`               | `$black`             | 06.06:1              |
+| `$light_green_600`    | `#7CB342`               | `$black`             | 08.38:1              |
+| `$light_green_500`    | `#8BC34A`               | `$black`             | 00.10:1              |
+| `$light_green_400`    | `#9CCC65`               | `$black`             | 11.23:1              |
+| `$light_green_300`    | `#AED581`               | `$black`             | 12.63:1              |
+| `$light_green_200`    | `#C5E1A5`               | `$black`             | 14.68:1              |
+| `$light_green_100`    | `#DCEDC8`               | `$black`             | 16.99:1              |
+| `$light_green_050`    | `#F1F8E9`               | `$black`             | 19.34:1              |
+| `$light_green_A10`    | `#F7FBF2`               | `$black`             | 20.03:1              |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
