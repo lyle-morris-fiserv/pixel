@@ -784,7 +784,7 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name            | Background              | Foreground           | WCAG Ratio           |
 | :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$brown_900`          | ![#3E2723](https://readme-swatches.vercel.app/3E2723)               | `$white`             | 13.82:1              |
+| `$brown_900`          | `#3E2723` ![#3E2723](https://readme-swatches.vercel.app/3E2723)               | `$white`             | 13.82:1              |
 | `$brown_800`          | `#4E342E`               | `$white`             | 11.32:1              |
 | `$brown_700`          | `#5D4037`               | `$white`             | 09.31:1              |
 | `$brown_600`          | `#6D4C41`               | `$white`             | 07.06:1              |
