@@ -814,7 +814,7 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name            | Background                                                                                | Foreground                                                                               | WCAG Ratio           |
 | :-------------------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | -------------------: | 
-| `$brown_900`          | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/3E2723'/> #3E2723 | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 13.82:1              |
+| `$brown_900      `    | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/3E2723'/> #3E2723 | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/FFFFFF'/> $white | 13.82:1              |
 | `$brown_800`          | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/4E342E'/> #4E342E | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/000000'/> $white | 11.32:1              |
 | `$brown_700`          | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/5D4037'/> #5D4037 | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/000000'/> $white | 09.31:1              |
 | `$brown_600`          | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/6D4C41'/> #6D4C41 | <img valign='middle' alt='blue' src='https://readme-swatches.vercel.app/000000'/> $white | 07.06:1              |
