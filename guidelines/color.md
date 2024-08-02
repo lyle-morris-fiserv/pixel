@@ -500,6 +500,29 @@ The tokens should function as a common language during the product cycle. It is 
 
 ## Palette token
 
+### Black and white
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$black`              | `#000000`               | `#FFFFFF`            | 21.01:1              |
+| `$white`              | `#FFFFFF`               | `#000000`            | 21.01:1              |
+
+### Gray
+
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$gray_900`           | `#212121`               | `$white`             | 16.01:1              |
+| `$gray_800`           | `#424242`               | `$white`             | 10.04:1              |
+| `$gray_700`           | `#616161`               | `$white`             | 06.19:1              |
+| `$gray_600`           | `#757575`               | `$white`             | 04.06:1              |
+| `$gray_500`           | `#9E9E9E`               | `$black`             | 07.83:1              |
+| `$gray_400`           | `#BDBDBD`               | `$black`             | 11.17:1              |
+| `$gray_300`           | `#E0E0E0`               | `$black`             | 15.09:1              |
+| `$gray_200`           | `#EEEEEE`               | `$black`             | 18.09:1              |
+| `$gray_100`           | `#F5F5F5`               | `$black`             | 19.26:1              |
+| `$gray_050`           | `#FAFAFA`               | `$black`             | 20.11:1              |
+| `$gray_A10`           | `#E9E9E9`               | `$black`             | 17.29:1              |
+
 ### Red
 
 | Token name            | Background              | Foreground           | WCAG Ratio           |
@@ -676,21 +699,117 @@ The tokens should function as a common language during the product cycle. It is 
 | `$light_green_050`    | `#F1F8E9`               | `$black`             | 19.34:1              |
 | `$light_green_A10`    | `#F7FBF2`               | `$black`             | 20.03:1              |
 
+### Lime
 
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$lime_900`           | `#827717`               | `$black`             | 04.06:1              |
+| `$lime_800`           | `#9E9D24`               | `$black`             | 07.03:1              |
+| `$lime_700`           | `#AFB42B`               | `$black`             | 09.38:1              |
+| `$lime_600`           | `#C0CA33`               | `$black`             | 11.73:1              |
+| `$lime_500`           | `#CDDC39`               | `$black`             | 13.89:1              |
+| `$lime_400`           | `#D4E157`               | `$black`             | 14.07:1              |
+| `$lime_300`           | `#DCE775`               | `$black`             | 15.73:1              |
+| `$lime_200`           | `#E6EE9C`               | `$black`             | 17.07:1              |
+| `$lime_100`           | `#F0F4C3`               | `$black`             | 18.43:1              |
+| `$lime_050`           | `#F9FBE7`               | `$black`             | 19.98:1              |
+| `$lime_A10`           | `#FCFDF3`               | `$black`             | 20.48:1              |
 
+### Yellow
 
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$yellow_900`         | `#F57F17`               | `$black`             | 07.93:1              |
+| `$yellow_800`         | `#F9A825`               | `$black`             | 10.65:1              |
+| `$yellow_700`         | `#FBC02D`               | `$black`             | 12.67:1              |
+| `$yellow_600`         | `#FDD835`               | `$black`             | 15.05:1              |
+| `$yellow_500`         | `#FFEB3B`               | `$black`             | 17.19:1              |
+| `$yellow_400`         | `#FFEE58`               | `$black`             | 17.62:1              |
+| `$yellow_300`         | `#FFF176`               | `$black`             | 18.09:1              |
+| `$yellow_200`         | `#FFF59D`               | `$black`             | 18.79:1              |
+| `$yellow_100`         | `#FFF9C4`               | `$black`             | 19.59:1              |
+| `$yellow_050`         | `#FFFDE7`               | `$black`             | 20.45:1              |
+| `$yellow_A10`         | `#FFFEEF`               | `$black`             | 20.67:1              |
 
+### Amber
 
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$amber_900`          | `#FF6600`               | `$black`             | 07.15:1              |
+| `$amber_800`          | `#FF8700`               | `$black`             | 08.71:1              |
+| `$amber_700`          | `#FF9900`               | `$black`             | 09.08:1              |
+| `$amber_600`          | `#FFAC00`               | `$black`             | 11.15:1              |
+| `$amber_500`          | `#FFBA00`               | `$black`             | 12.27:1              |
+| `$amber_400`          | `#FFC41F`               | `$black`             | 13.16:1              |
+| `$amber_300`          | `#FFD04A`               | `$black`             | 14.37:1              |
+| `$amber_200`          | `#FFDC7E`               | `$black`             | 15.79:1              |
+| `$amber_100`          | `#FFEAB1`               | `$black`             | 17.65:1              |
+| `$amber_050`          | `#FFF7E0`               | `$black`             | 19.63:1              |
+| `$amber_A10`          | `#FFFDF7`               | `$black`             | 20.64:1              |
 
+### Orange
 
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$orange_900`         | `#E65100`               | `$black`             | 05.54:1              |
+| `$orange_800`         | `#EF6C00`               | `$black`             | 06.81:1              |
+| `$orange_700`         | `#F57C00`               | `$black`             | 06.81:1              |
+| `$orange_600`         | `#FB8C00`               | `$black`             | 08.85:1              |
+| `$orange_500`         | `#FF9800`               | `$black`             | 09.74:1              |
+| `$orange_400`         | `#FFA726`               | `$black`             | 10.08:1              |
+| `$orange_300`         | `#FFB74D`               | `$black`             | 12.13:1              |
+| `$orange_200`         | `#FFCC80`               | `$black`             | 14.02:1              |
+| `$orange_100`         | `#FFE0B2`               | `$black`             | 16.55:1              |
+| `$orange_050`         | `#FFF3E0`               | `$black`             | 19.41:1              |
+| `$orange_A10`         | `#FFF9EF`               | `$black`             | 20.04:1              |
 
+### Deep Orange
 
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$deep_orange_900`    | `#BF360C`               | `$white`             | 05.06:1              |
+| `$deep_orange_800`    | `#D84315`               | `$black`             | 04.73:1              |
+| `$deep_orange_700`    | `#E64A19`               | `$black`             | 05.35:1              |
+| `$deep_orange_600`    | `#F4511E`               | `$black`             | 06.04:1              |
+| `$deep_orange_500`    | `#FF5722`               | `$black`             | 06.63:1              |
+| `$deep_orange_400`    | `#FF7043`               | `$black`             | 07.65:1              |
+| `$deep_orange_300`    | `#FF8A65`               | `$black`             | 09.07:1              |
+| `$deep_orange_200`    | `#FFAB91`               | `$black`             | 11.48:1              |
+| `$deep_orange_100`    | `#FFCCBC`               | `$black`             | 14.61:1              |
+| `$deep_orange_050`    | `#FBE9E7`               | `$black`             | 17.91:1              |
+| `$deep_orange_A10`    | `#FDF0EF`               | `$black`             | 18.88:1              |
 
+### Brown
 
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$brown_900`          | `#3E2723`               | `$white`             | 13.82:1              |
+| `$brown_800`          | `#4E342E`               | `$white`             | 11.32:1              |
+| `$brown_700`          | `#5D4037`               | `$white`             | 09.31:1              |
+| `$brown_600`          | `#6D4C41`               | `$white`             | 07.06:1              |
+| `$brown_500`          | `#795548`               | `$white`             | 06.55:1              |
+| `$brown_400`          | `#8D6E63`               | `$white`             | 04.62:1              |
+| `$brown_300`          | `#A1887F`               | `$black`             | 06.34:1              |
+| `$brown_200`          | `#BCAAA4`               | `$black`             | 09.42:1              |
+| `$brown_100`          | `#D7CCC8`               | `$black`             | 13.36:1              |
+| `$brown_050`          | `#EFEBE9`               | `$black`             | 17.73:1              |
+| `$brown_A10`          | `#F4F1F0`               | `$black`             | 18.68:1              |
 
+### Slate
 
-
-
+| Token name            | Background              | Foreground           | WCAG Ratio           |
+| :-------------------- | :---------------------- | :------------------- | :-------------------- 
+| `$slate_900`          | `#37434B`               | `$white`             | 10.16:1              |
+| `$slate_800`          | `#495864`               | `$white`             | 07.33:1              |
+| `$slate_700`          | `#586C7A`               | `$white`             | 05.46:1              |
+| `$slate_600`          | `#698191`               | `$white`             | 04.07:1              |
+| `$slate_500`          | `#9E9E9E`               | `$black`             | 06.53:1              |
+| `$slate_400`          | `#8BA2B2`               | `$black`             | 07.09:1              |
+| `$slate_300`          | `#A1B4C2`               | `$black`             | 09.82:1              |
+| `$slate_200`          | `#BCCAD4`               | `$black`             | 12.53:1              |
+| `$slate_100`          | `#D5DFE6`               | `$black`             | 15.52:1              |
+| `$slate_050`          | `#EEF2F6`               | `$black`             | 18.66:1              |
+| `$slate_A10`          | `#EBECED`               | `$black`             | 17.75:1              |
 
 
 
