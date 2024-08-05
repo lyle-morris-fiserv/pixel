@@ -732,37 +732,35 @@ The tokens should function as a common language during the product cycle. It is 
 
 ### Amber
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$amber_900`          | `#FF6600`               | `$black`             | 07.15:1              |
-| `$amber_800`          | `#FF8700`               | `$black`             | 08.71:1              |
-| `$amber_700`          | `#FF9900`               | `$black`             | 09.08:1              |
-| `$amber_600`          | `#FFAC00`               | `$black`             | 11.15:1              |
-| `$amber_500`          | `#FFBA00`               | `$black`             | 12.27:1              |
-| `$amber_400`          | `#FFC41F`               | `$black`             | 13.16:1              |
-| `$amber_300`          | `#FFD04A`               | `$black`             | 14.37:1              |
-| `$amber_200`          | `#FFDC7E`               | `$black`             | 15.79:1              |
-| `$amber_100`          | `#FFEAB1`               | `$black`             | 17.65:1              |
-| `$amber_050`          | `#FFF7E0`               | `$black`             | 19.63:1              |
-| `$amber_A10`          | `#FFFDF7`               | `$black`             | 20.64:1              |
+| Token name            | Background                                                                                     | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$amber_900`          | <img valign='middle' alt='amber_900' src='https://readme-swatches.vercel.app/FF6600'/> #FF6600 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 07.15:1              |
+| `$amber_800`          | <img valign='middle' alt='amber_800' src='https://readme-swatches.vercel.app/FF8700'/> #FF8700 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 08.71:1              |
+| `$amber_700`          | <img valign='middle' alt='amber_700' src='https://readme-swatches.vercel.app/FF9900'/> #FF9900 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.08:1              |
+| `$amber_600`          | <img valign='middle' alt='amber_600' src='https://readme-swatches.vercel.app/FFAC00'/> #FFAC00 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 11.15:1              |
+| `$amber_500`          | <img valign='middle' alt='amber_500' src='https://readme-swatches.vercel.app/FFBA00'/> #FFBA00 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 12.27:1              |
+| `$amber_400`          | <img valign='middle' alt='amber_400' src='https://readme-swatches.vercel.app/FFC41F'/> #FFC41F | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 13.16:1              |
+| `$amber_300`          | <img valign='middle' alt='amber_300' src='https://readme-swatches.vercel.app/FFD04A'/> #FFD04A | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 14.37:1              |
+| `$amber_200`          | <img valign='middle' alt='amber_200' src='https://readme-swatches.vercel.app/FFDC7E'/> #FFDC7E | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 15.79:1              |
+| `$amber_100`          | <img valign='middle' alt='amber_100' src='https://readme-swatches.vercel.app/FFEAB1'/> #FFEAB1 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 17.65:1              |
+| `$amber_050`          | <img valign='middle' alt='amber_050' src='https://readme-swatches.vercel.app/FFF7E0'/> #FFF7E0 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.63:1              |
+| `$amber_A10`          | <img valign='middle' alt='amber_A10' src='https://readme-swatches.vercel.app/FFFDF7'/> #FFFDF7 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 20.64:1              |
 
 ### Orange
 
-| Token name            | Background              | Foreground           | WCAG Ratio           |
-| :-------------------- | :---------------------- | :------------------- | :-------------------- 
-| `$orange_900`         | `#E65100`               | `$black`             | 05.54:1              |
-| `$orange_800`         | `#EF6C00`               | `$black`             | 06.81:1              |
-| `$orange_700`         | `#F57C00`               | `$black`             | 06.81:1              |
-| `$orange_600`         | `#FB8C00`               | `$black`             | 08.85:1              |
-| `$orange_500`         | `#FF9800`               | `$black`             | 09.74:1              |
-| `$orange_400`         | `#FFA726`               | `$black`             | 10.08:1              |
-| `$orange_300`         | `#FFB74D`               | `$black`             | 12.13:1              |
-| `$orange_200`         | `#FFCC80`               | `$black`             | 14.02:1              |
-| `$orange_100`         | `#FFE0B2`               | `$black`             | 16.55:1              |
-| `$orange_050`         | `#FFF3E0`               | `$black`             | 19.41:1              |
-| `$orange_A10`         | `#FFF9EF`               | `$black`             | 20.04:1              |
-
-
+| Token name            | Background                                                                                      | Foreground                                                                                | WCAG Ratio           |
+| :-------------------- | :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | -------------------: | 
+| `$orange_900`         | <img valign='middle' alt='orange_900' src='https://readme-swatches.vercel.app/BF360C'/> #E65100 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 05.54:1              |
+| `$orange_800`         | <img valign='middle' alt='orange_800' src='https://readme-swatches.vercel.app/EF6C00'/> #EF6C00 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.81:1              |
+| `$orange_700`         | <img valign='middle' alt='orange_700' src='https://readme-swatches.vercel.app/F57C00'/> #F57C00 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 06.81:1              |
+| `$orange_600`         | <img valign='middle' alt='orange_600' src='https://readme-swatches.vercel.app/FB8C00'/> #FB8C00 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 08.85:1              |
+| `$orange_500`         | <img valign='middle' alt='orange_500' src='https://readme-swatches.vercel.app/FF9800'/> #FF9800 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 09.74:1              |
+| `$orange_400`         | <img valign='middle' alt='orange_400' src='https://readme-swatches.vercel.app/FFA726'/> #FFA726 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 10.08:1              |
+| `$orange_300`         | <img valign='middle' alt='orange_300' src='https://readme-swatches.vercel.app/FFB74D'/> #FFB74D | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 12.13:1              |
+| `$orange_200`         | <img valign='middle' alt='orange_200' src='https://readme-swatches.vercel.app/FFCC80'/> #FFCC80 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 14.02:1              |
+| `$orange_100`         | <img valign='middle' alt='orange_100' src='https://readme-swatches.vercel.app/FFE0B2'/> #FFE0B2 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 16.55:1              |
+| `$orange_050`         | <img valign='middle' alt='orange_050' src='https://readme-swatches.vercel.app/FFF3E0'/> #FFF3E0 | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 19.41:1              |
+| `$orange_A10`         | <img valign='middle' alt='orange_A10' src='https://readme-swatches.vercel.app/FFF9EF'/> #FFF9EF | <img valign='middle' alt='black' src='https://readme-swatches.vercel.app/000000'/> $black | 20.04:1              |
 
 
 ### Deep Orange
