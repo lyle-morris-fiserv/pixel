@@ -41,6 +41,7 @@ Accordions can be placed with main page content or placed inside of a container 
 - **Scrolling content** - When the accordion content is longer than the viewport the whole accordion should vertically scroll. Content should not scroll inside of an individual panel. Content should never scroll horizontally in an accordion.
 
 ### States
+
 The accordion component has two main states: collapsed and expanded. The chevron icon at the end of the accordion indicates which state the accordion is in. The chevron points down to indicate collapsed and up to indicate expanded.
 
 Accordions begin by default in the collapsed state with all content panels closed. Starting in a collapsed state gives the user a high-level overview of the available information.
@@ -50,14 +51,17 @@ A user can then independently expand each section of the accordion allowing for 
 ### Universal Behaviors
 
 #### Mouse
+
 Users can trigger a state change by clicking on the chevron or clicking anywhere in the header area.
 
 <img src="image/accordion_usage_trigger_areas.png" alt="Accordion Usage Trigger Areas"/>
 
 #### Keyboard
+
 Users can navigate between accordion headers by pressing Tab or Shift-Tab. Users can trigger a state change by pressing Enter or Space while the header area has focus. For additional keyboard interactions.
 
 ### Reference
+
 Hoa Loranger, [Accordions Are Not Always the Answer for Complex Content on Desktops](https://www.nngroup.com/articles/accordions-complex-content/) - Nielsen Norman Group, 2014
 
 ## Style
