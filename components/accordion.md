@@ -20,6 +20,8 @@ Accordions can make information processing and discovering more effective. Howev
 2. **Icon** - indicates if the panel is open or closed.
 3. **Panel** - the sect ion of content associated with an accordion header.
 
+<img src="images/accordion/accordion_usage_anatomy.png"/>
+
 ### Alignment
 
 By default, the chevron icon is placed on the end side of the header. This allows for the title on the start side to align with other type elements in the layout, which is the preferred alignment scenario.
