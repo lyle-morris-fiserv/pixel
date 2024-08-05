@@ -20,7 +20,7 @@ Accordions can make information processing and discovering more effective. Howev
 2. **Icon** - indicates if the panel is open or closed.
 3. **Panel** - the sect ion of content associated with an accordion header.
 
-<img src=".../image/accordion/accordion_usage_anatomy.png"/>
+<img src="image/accordion/accordion-usage-anatomy.png"/>
 
 ### Alignment
 
