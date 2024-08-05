@@ -490,11 +490,11 @@ The tokens should function as a common language during the product cycle. It is 
 
 | Token name                      | Light theme           | Dark theme             |
 | :------------------------------ | :-------------------- | :--------------------- |
-| `$interative`                   | '$blue_800'           | '$blue_600'            |
+| `$interative`                   | `$blue_800`           | `$blue_600`            |
 | `$highlight`                    |                       |                        |
-| `$overlay`                      | 'rgba($black,.50)'    | 'rgba($black,.50)'     |
-| `$skeleton_element`             | '$gray_400'           | '$gray_800'            |
-| `$skeleton_background`          | '$gray_200'           | 'gray_900'             |
+| `$overlay`                      | `rgba($black,.50)`    | `rgba($black,.50)`     |
+| `$skeleton_element`             | `$gray_400`           | `$gray_800`            |
+| `$skeleton_background`          | `$gray_200`           | `gray_900`             |
 
 
 ## Palette token
