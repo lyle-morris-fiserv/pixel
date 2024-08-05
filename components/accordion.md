@@ -20,13 +20,15 @@ Accordions can make information processing and discovering more effective. Howev
 2. **Icon** - indicates if the panel is open or closed.
 3. **Panel** - the sect ion of content associated with an accordion header.
 
-<img src="images/accordion/accordion_usage_anatomy.png"/>
+<img src="image/accordion/accordion_usage_anatomy.png" alt="Accordion Usage Anatomy"/>
 
 ### Alignment
 
 By default, the chevron icon is placed on the end side of the header. This allows for the title on the start side to align with other type elements in the layout, which is the preferred alignment scenario.
 
 However, in some rare scenarios, the accordion may be modified to place the icon in start front of the title to function more like a tree. Most instances should use the default end alignment, especially for any pure content or documentation purposes. Icon placement in accordions should be consistent throughout your page and should not alternate.
+
+<img src="image/accordion_usage_alignment.png" alt="Accordion Usage Alignment"/>
 
 ### Placement
 
@@ -49,6 +51,8 @@ A user can then independently expand each section of the accordion allowing for 
 
 #### Mouse
 Users can trigger a state change by clicking on the chevron or clicking anywhere in the header area.
+
+<img src="image/accordion_usage_trigger_areas.png" alt="Accordion Usage Trigger Areas"/>
 
 #### Keyboard
 Users can navigate between accordion headers by pressing Tab or Shift-Tab. Users can trigger a state change by pressing Enter or Space while the header area has focus. For additional keyboard interactions.
@@ -80,6 +84,8 @@ Below is the token architecture color build of the components. The token can be 
 |            |           | Border Color     |                    |
 |            | Label     | Text Color       | '$text_primary'    |
 |            | Icon      | SVG Color        | '$icon_primary'    |
+
+<img src="image/accordion_specificaitons_states.png" alt="Accordion Specifications States"/>
 
 ### Typography
 
@@ -130,6 +136,8 @@ There is no max-height for an open panel, but an accordion may scroll if constra
 |            |                      | Border Bottom        | 1px  | '$accordion_border'        |
 | Focus      | Container            | Border               | 1px  | '$accordion_border'        |
 
+<img src="image/accordion_specificaitons_padding.png" alt="Accordion Specifications Padding"/>
+
 ### Sizing
 
 | Variant | Element   | Size              | Token name          |
@@ -141,6 +149,8 @@ There is no max-height for an open panel, but an accordion may scroll if constra
 | Large   | Container | (min-height:56px) | '$accordion_large'  |
 |         | Icon      | 20px              | '$icon_large'       |
 
+<img src="image/accordion_specificaitons_sizing.png" alt="Accordion Specifications Sizes"/>
+
 ## Accessibility
 
 The component bakes keyboard operation into its components, improving the experience of blind users and others who operate via the keyboard. The component incorporates many other accessibility considerations, some of which are described below.
@@ -151,9 +161,13 @@ Each accordion is a tab stop. Space or Enter keys expand or collapse accordions,
 
 Accordions and interactive elements in the expanded content are in the tab order and keyboard operable.
 
+<img src="image/accordion_accessibility_keyboard.png" alt="Accordion Accessibility Keyboard"/>
+
 ### Labeling and states
 
 The collapsed or expanded state of the accordions is programmatically set by default, eliminating the need for designers to provide text equivalents for the chevron icons.
+
+<img src="image/accordion_accessibility_labels_states.png" alt="Accordion Accessibility Labeling and States"/>
 
 ### Design  recommendations
 
