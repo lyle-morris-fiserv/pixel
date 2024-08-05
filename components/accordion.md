@@ -4,7 +4,6 @@ The accordion component delivers large amounts of content in a small space throu
 
 Accordions can make information processing and discovering more effective. However, it does hide content from users and it’s important to account for a user not noticing or reading all the included content. If a user is likely to read all of the content, then don’t use an accordion as it adds the burden of an extra click; instead use a full scrolling page with normal headers.
 
-</br>
 
 ## Usage
 
@@ -19,6 +18,7 @@ Accordions can make information processing and discovering more effective. Howev
 1. **Header** - contains the section title and is control for revealing the panel.
 2. **Icon** - indicates if the panel is open or closed.
 3. **Panel** - the sect ion of content associated with an accordion header.
+
 
 <img src="image/accordion/accordion_usage_anatomy.png" alt="Accordion Usage Anatomy"/>
 
