@@ -182,4 +182,4 @@ Below is the token architecture color build of the components. The token can be 
 |                      |                       | Box Shadow              |           | `$shadow_2`                 |
 |                      | Icon                  | Height x Width          | 16px      |                             |
 
-<img src="image/avatar/avatar_specifications_sizing.png" alt="Avatar Specifications Sizing"/>
+<img src="image/avatar/avatar_style_sizing.png" alt="Avatar Style Sizing"/>

@@ -200,7 +200,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_on_color`             | 
 |                            | Icon                       | SVG Color                  | `$icon_on_color`             |
 
-<img src="image/button/buttons_specifications_states_primary.png" alt="Button Specification States Primary"/>
+<img src="image/button/buttons_style_states_primary.png" alt="Button Style States Primary"/>
 
 **Secondary button**
 
@@ -242,7 +242,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_on_color`             | 
 |                            | Icon                       | SVG Color                  | `$icon_on_color`             |
 
-<img src="image/button/buttons_specifications_states_secondary.png" alt="Button Specification States Secondary"/>
+<img src="image/button/buttons_style_states_secondary.png" alt="Button Style States Secondary"/>
 
 **Tertiary button**
 
@@ -284,7 +284,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$button_danger`             | 
 |                            | Icon                       | SVG Color                  | `$button_danger`             |
 
-<img src="image/button/buttons_specifications_states_tertiary.png" alt="Button Specification States Tertiary"/>
+<img src="image/button/buttons_style_states_tertiary.png" alt="Button Style States Tertiary"/>
 
 **Danger button**
 
@@ -311,7 +311,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_on_color`             | 
 |                            | Icon                       | SVG Color                  | `$icon_on_color`             |
 
-<img src="image/button/buttons_specifications_states_danger.png" alt="Button Specification States Danger"/>
+<img src="image/button/buttons_style_states_danger.png" alt="Button Style States Danger"/>
 
 >[!Note]
 > The danger button styling will override the Primary, Secondary, and Tertiary button modifier's styles. The **enabled** state is alreay included in each button above.
@@ -352,7 +352,7 @@ A button cannot have any element or text within 16 pixels / 1 rem of its borders
 |                      | Icon (Left)           | Margin Left             | 8px       | `$button_margin`            |
 | Focus                | Container             | Border                  | 1px       | `$border_1`                 |
 
-<img src="image/button/buttons_specifications_padding.png" alt="Button Specification Padding"/>
+<img src="image/button/buttons_style_padding.png" alt="Button Style Padding"/>
 
 ### Size
 
@@ -366,7 +366,7 @@ A button cannot have any element or text within 16 pixels / 1 rem of its borders
 |                            | Icon                      | 20px                       | `$icon_large`              |
 
 
-<img src="image/button/buttons_specifications_sizing.png" alt="Button Specification Sizing"/>
+<img src="image/button/buttons_style_sizing.png" alt="Button Style Sizing"/>
 
 ## Accessibility
 

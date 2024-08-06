@@ -171,7 +171,7 @@ Below is the token architecture color build of the components. The token can be 
 | Footer                | Padding Right x Left    | 16px      | `$card_padding`             |
 |                       | Border Top              | 1px       | `$card_border`              |
 
-<img src="image/cards/card_specifications_padding.png" alt="Cards Specificiations Padding"/>
+<img src="image/cards/card_style_padding.png" alt="Cards Style Padding"/>
 
 ### Size
 

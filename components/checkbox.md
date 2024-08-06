@@ -173,7 +173,7 @@ Structure and spacing measurements for vertical and horizontal checkbox grouping
 | Group label           | Margin Bottom           | 8px       | `$checkbox_margin`          |
 | Label                 | Margin Left             | 8px       | `$checkbox_margin`          |
 
-<img src="image/checkbox/checkbox_specifications_padding.png" alt="Checkbox Specifications Padding"/>
+<img src="image/checkbox/checkbox_style_padding.png" alt="Checkbox Style Padding"/>
 
 ## Accessibility
 

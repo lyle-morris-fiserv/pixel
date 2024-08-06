@@ -82,7 +82,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            |                            | Border Color               |                            |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
-<img src="image/breadcrumb/breadcrumb_specifications_states.png" alt="Breadcrumb Specifications States"/>
+<img src="image/breadcrumb/breadcrumb_style_states.png" alt="Breadcrumb Style States"/>
 
 ## Typography
 
@@ -123,7 +123,7 @@ The on-click dropdown should follow the overflow menu specs for sizing, padding,
 | Link: last-of-type    | Padding Right           |           |                             |
 |                       | Border Right            | 1px       | `$breadcrumb_border`        |
 
-<img src="image/breadcrumb/breadcrumb_specifications_padding.png" alt="Breadcrumb Specifications Padding"/>
+<img src="image/breadcrumb/breadcrumb_style_padding.png" alt="Breadcrumb Style Padding"/>
 
 **Overflow sizing**
 | Variant               | Property                | Size      | Token name                  |
@@ -134,7 +134,7 @@ The on-click dropdown should follow the overflow menu specs for sizing, padding,
 | Small                 | Height x Width          | 22px      |                             |
 | X-small               | Height x Width          | 18px      |                             |
 
-<img src="image/breadcrumb/breadcrumb_specifications_sizes.png" alt="Breadcrumb Specifications Sizes"/>
+<img src="image/breadcrumb/breadcrumb_style_sizes.png" alt="Breadcrumb Style Sizes"/>
 
 
 ## Accessibility

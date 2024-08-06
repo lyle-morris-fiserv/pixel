@@ -166,6 +166,6 @@ Below is the token architecture color build of the components. The token can be 
 |                       | Width                   | 20px      |                             |
 |                       | Margin Bottom           | 4px       |                             |
 
-<img src="image/bottom_navigation/bottom_navigation_specifications_padding.png" alt="Bottom Navigation Specifications Padding"/>
+<img src="image/bottom_navigation/bottom_navigation_style_padding.png" alt="Bottom Navigation Style Padding"/>
 
 
