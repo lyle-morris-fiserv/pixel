@@ -42,6 +42,8 @@ Dropdowns are composed of four distinct sections—assistive text like labels or
 5. Menu Option
 6. Menu Selection
 
+<img src="image/dropdown/dropdown_usage_anatomy.png" alt="Dropdown Usage Anatomy"/>
+
 ### Multiselect
 
 Use when you can select multiple options from a list or to filter information.
@@ -85,6 +87,8 @@ Dropdowns are composed of four distinct sections—assistive text like labels or
 6. **Unselected menu item** - Provides visual indication to the user that this has not be selected.
 7. **Selected menu item** - Provides visual indication to the user that this have been selected.
 
+<img src="image/dropdown/dropdown_usage_multiple_selection.png" alt="Dropdown Usage Multiple Selection"/>
+
 ### Stacked
 
 The stacked dropdown is like the Contained list component. It offers the use of various content layouts within the component to provide additional information with the interaction/experience.
@@ -100,6 +104,8 @@ The stacked dropdown is like the Contained list component. It offers the use of 
 7. **Helper text** - Provide additional instructions for the user.
 8. **Unselected menu item** - Provides visual indication to the user that this has not be selected.
 9. **Selected menu item** - Provides visual indication to the user that this have been selected.
+
+<img src="image/dropdown/dropdown_usage_stacked.png" alt="Dropdown Usage Stacked"/>
 
 ### Combo box
 
@@ -132,9 +138,13 @@ There is no minimum or maximum width for a dropdown. The width can be customized
 
 Field containers should vertically align to the grid and with other form components on a page.
 
+<img src="image/dropdown/dropdown_usage_placement.png" alt="Dropdown Usage Placement"/>
+
 ### Contextual Menu
 
 For most scenarios the menu should be positioned connected and at the bottom of the dropdown input. If using native mobile operating systems, this principle can change. Mobile the menu component can be shown at the bottom of the device, or treated like an overlay modal.
+
+<img src="image/dropdown/dropdown_usage_contextual_menu.png" alt="Dropdown Usage Contextual Menu"/>
 
 ### Content
 
@@ -178,6 +188,8 @@ The component has one layer style called a box-shadow. The box-shadow is placed 
 
 Scroll bars may not always be enabled so we recommend showing 50% of the last option’s container height to indicate there is more to see within the menu. We recommend starting a scroll at the sixth option in the menu list, but this may vary based on your specific use case.
 
+<img src="image/dropdown/dropdown_usage_scrolling.png" alt="Dropdown Usage Scrolling"/>
+
 #### Mouse
 
 Users trigger a dropdown menu to open by clicking the chevron icon or clicking anywhere within the field. Users can close the menu by clicking the chevron icon or clicking outside of the menu. 
@@ -185,6 +197,8 @@ Users trigger a dropdown menu to open by clicking the chevron icon or clicking a
 - To select an option the user can click anywhere inside an option container.
 - To clear all selected options from a list in a multiselect dropdown, click the “x” icon next to the value inside the tag. 
 - To clear a selected value in a combo box or a filterable dropdown, click the “x” icon to the right of the field input text.
+
+<img src="image/dropdown/dropdown_usage_mouse.png" alt="Dropdown Usage Mouse"/>
 
 #### Keyboard
 
@@ -270,6 +284,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Help Text                  | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
 
+<img src="image/dropdown/dropdown_style_input_states.png" alt="Dropdown Style Input States"/>
+
 **Contextual menu**
 The contextual menu sub component uses the same color and specifications as contained lists.
 
@@ -299,6 +315,8 @@ The contextual menu sub component uses the same color and specifications as cont
 |                            |                            | Border Color               |                            |  
 |                            | Label                      | Text Color                 | `$text_on_color`           |
 |                            | Icon                       | SVG Color                  | `$icon_on_color`           |
+
+<img src="image/dropdown/dropdown_style_menu_states.png" alt="Dropdown Style Contextual Menu States"/>
 
 ### Typography
 
@@ -348,6 +366,8 @@ Dropdowns have two states, open and closed. An open and closed dropdown should b
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
+<img src="image/dropdown/dropdown_style_input_padding.png" alt="Dropdown Style Input Padding"/>
+
 **Contextual Menu**
 The contextual menu sub component uses the same color and specifications as contained lists.
 
@@ -358,6 +378,8 @@ The contextual menu sub component uses the same color and specifications as cont
 | Menu Item             | Padding Right x Left    | 16px      | `$contained_list_border_radius` |
 | Menu Item: Icon       | Margin Left             | 8px       | `$contained_list_margin`        |
 | Menu Item: Checkbox   | Margin Right            | 8px       | `$contained_list_margin`        |
+
+<img src="image/dropdown/dropdown_style_menu_padding.png" alt="Dropdown Style Menu Padding"/>
 
 ### Sizing
 
@@ -374,6 +396,8 @@ The field height and menu option height should always match. These sizes options
 | Large   | Input                 | Height         | 48px      | `$dropdown_small`         |
 |         | Icon                  | Height x Width | 28px      | `$icon_small`             |
 |         | Menu Item             | Height         | 48px      | `$contained_list_small`   |
+
+<img src="image/dropdown/dropdown_style_input_menu_sizing.png" alt="Dropdown Style Input and Menu Sizing"/>
 
 
 ## Accessibility
