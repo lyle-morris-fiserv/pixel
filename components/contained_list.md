@@ -147,12 +147,12 @@ All text should be set in sentence case, with only the first word in a phrase an
 
 | State      | Element    | Font size | Font weight | Token name                 |
 | ---------- | ---------- | --------- | ----------- | -------------------------- | 
-| Small      | Title      | 14px      | 700 bold    | '$body_standard_1_bold'    |
-|            | Content    | 14px      | 400 regular | '$body_standard_1_regular' |
-| Medium     | Title      | 14px      | 700 bold    | '$body_standard_1_bold'    |
-|            | Content    | 14px      | 400 regular | '$body_standard_1_regular' |
-| Large      | Title      | 16px      | 700 bold    | '$body_standard_2_bold'    |
-|            | Content    | 16px      | 400 regular | '$body_standard_2_regular' |
+| Small      | Title      | 14px      | 700 bold    | `$body_standard_1_bold`    |
+|            | Content    | 14px      | 400 regular | `$body_standard_1_regular` |
+| Medium     | Title      | 14px      | 700 bold    | `$body_standard_1_bold`    |
+|            | Content    | 14px      | 400 regular | `$body_standard_1_regular` |
+| Large      | Title      | 16px      | 700 bold    | `$body_standard_2_bold`    |
+|            | Content    | 16px      | 400 regular | `$body_standard_2_regular` |
 
 ### Token Architecture
 
