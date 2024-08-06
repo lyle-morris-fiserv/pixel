@@ -89,7 +89,7 @@ Below is the token architecture color build of the components. The token can be 
 |            | Label     | Text Color       | `$text_primary`    |
 |            | Icon      | SVG Color        | `$icon_primary`    |
 
-<img src="../images/components/accordion/accordion_specificaitons_states.png" alt="Accordion Specifications States"/>
+<img src="../images/components/accordion/accordion_style_states.png" alt="Accordion Style States"/>
 
 ### Typography
 
