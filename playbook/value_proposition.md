@@ -69,9 +69,11 @@ If one developer costs $6,000 a month, that means the design system would cost F
 
 ## Estimated cost and gains
 
-|             | Cost     | Gain     | Return   |
-| :---------- | --------:| -------: | -------: |
-| Design Team | $190,000 | $513,000 | 170%     | 
+|                  | Cost     | Gain       | Return   |
+| :--------------- | --------:| ---------: | -------: |
+| Design Team      | $190,000 | $513,000   | 170%     |
+| Development Team | $456,000 | $1,004,400 | 120%     |
+|                  | $642,000 | $1,517,400 | 135%     |
 
 
 
