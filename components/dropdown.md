@@ -192,6 +192,7 @@ Users trigger a dropdown menu to open by clicking the chevron icon or clicking a
 - **Combo box** - When typing a character, focus stays on the field while an option in the menu is highlighted that best matches the typed character. When typing multiple characters in rapid succession, focus stays on the field while an option in the menu is highlighted that best matches the string of characters typed.
 - **Multiselect** - The multiselect field receives focus if none of the options are selected in the menu. Once an option in the dropdown menu receives focus, users can press Enter to select or deselect the option. Users can open and close a dropdown menu by pressing Space.
 - **Screen readers** - Labels must be announced to the screen reader on focus. Ensure the helper text that appears under an input is read when an assistive technology user stops at an input using ARIA.
+
 	- **VoiceOver** - Users can trigger a state change by pressing Control-Option-Space or Space while the dropdown field has screen reader focus.
 	- **JAWS** - Users can trigger a state change by pressing Space while the dropdown field has screen reader focus.
 	- **NVDA** - Users can trigger a state change by pressing Space while the dropdown field has screen reader focus.
@@ -235,7 +236,161 @@ A dropdown can toggle between the AI variant and the non-AI variant depending on
 
 Below is the token architecture color build of the components. The token can be changed or defined through the token mapping script that has been placed in the application repository.
 
+### Color
 
+**Dropdown**
+| State                      | Element                    | Property                   | Token name                 |
+| :------------------------- | :------------------------- | :------------------------- | :------------------------- |
+| Enabled                    | Container                  | Background Color           | `$field_1`                 |
+|                            |                            | Border Color               | `$border_strong_1`         |  
+|                            | Label                      | Text Color                 | `$text_secondary`          |
+|                            | Value                      | Text Color                 | `$text_primary`            |
+|                            | Placeholder                | Text Color                 | `$text_placeholder`        |
+|                            | Help Text                  | Text Color                 | `$text_secondary`          |
+|                            | Icon                       | SVG Color                  | `$icon_secondary`          |
+| Focus                      | Container                  | Background Color           | `$focus_highlight`         |
+|                            |                            | Border Color               | `$focus`                   |  
+|                            | Label                      | Text Color                 | `$text_secondary`          |
+|                            | Value                      | Text Color                 | `$text_primary`            |
+|                            | Placeholder                | Text Color                 | `$text_placeholder`        |
+|                            | Help Text                  | Text Color                 | `$text_secondary`          |
+|                            | Icon                       | SVG Color                  | `$icon_secondary`          |
+| Disabled                   | Container                  | Background Color           | `$field_disabled_1`        |
+|                            |                            | Border Color               | `$border_disabled_1`       |  
+|                            | Label                      | Text Color                 | `$text_disabled`           |
+|                            | Value                      | Text Color                 | `$text_disabled`           |
+|                            | Placeholder                | Text Color                 | `$text_placeholder`        |
+|                            | Help Text                  | Text Color                 | `$text_disabled`           |
+|                            | Icon                       | SVG Color                  | `$icon_disabled`           |
+| Error                      | Container                  | Background Color           | `$support_bg_error`        |
+|                            |                            | Border Color               | `$support_error`           |  
+|                            | Label                      | Text Color                 | `$support_error`           |
+|                            | Value                      | Text Color                 | `$support_error`           |
+|                            | Placeholder                | Text Color                 | `$support_error`           |
+|                            | Help Text                  | Text Color                 | `$support_error`           |
+|                            | Icon                       | SVG Color                  | `$support_error`           |
+
+**Contextual menu**
+The contextual menu sub component uses the same color and specifications as contained lists.
+
+| State                      | Element                    | Property                   | Token name                 |
+| :------------------------- | :------------------------- | :------------------------- | :------------------------- |
+| Enabled                    | Container                  | Background Color           | `$layer_1`                 |
+|                            |                            | Border Color               | `$border_subtle_1`         |  
+|                            | Label                      | Text Color                 | `$text_secondary`          |
+|                            | Icon                       | SVG Color                  | `$icon_secondary`          |
+| Hover                      | Container                  | Background Color           | `$layer_hover_1`           |
+|                            |                            | Border Color               | `$border_subtle_1`         |  
+|                            | Label                      | Text Color                 | `$text_primary`            |
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+| Selected                   | Container                  | Background Color           | `$layer_selected_1`        |
+|                            |                            | Border Color               |                            |  
+|                            | Label                      | Text Color                 | `$text_on_color`           |
+|                            | Icon                       | SVG Color                  | `$icon_on_color`           |
+| Focus                      | Container                  | Background Color           | `$focus_highlight`         |
+|                            |                            | Border Color               | `$focus`                   |  
+|                            | Label                      | Text Color                 | `$text_primary`            |
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+| Disabled                   | Container                  | Background Color           | `$layer_disabled_1`        |
+|                            |                            | Border Color               | `$border_subtle_1`         |  
+|                            | Label                      | Text Color                 | `$text_disabled`           |
+|                            | Icon                       | SVG Color                  | `$icon_disabled`           |
+| Danger                     | Container                  | Background Color           | `$support_error`           |
+|                            |                            | Border Color               |                            |  
+|                            | Label                      | Text Color                 | `$text_on_color`           |
+|                            | Icon                       | SVG Color                  | `$icon_on_color`           |
+
+### Typography
+
+All dropdown text should be set in sentence case, with only the first word in a phrase and any proper nouns capitalized. Dropdown menu option text should not exceed three words.
+
+| State      | Element         | Font size | Font weight | Token name                |
+| ---------- | --------------- | --------- | ----------- | ------------------------- | 
+| Small      | Label           | 14px      | 700 bold    | `$label_1_bold`           |
+|            | Helper Text     | 12px      | 400 regular | `$helper_text_1_regular`  |
+|            | Value           | 14px      | 400 regular | `$body_1_compact_regular` |
+|            | Placeholder     | 14px      | 400 regular | `$body_1_compact_regular` |
+|            | Contextual Menu | 14px      | 400 regular | `$body_1_compact_regular` |
+| Medium     | Label           | 14px      | 700 bold    | `$label_1_bold`           |
+|            | Helper Text     | 12px      | 400 regular | `$helper_text_1_regular`  |
+|            | Value           | 14px      | 400 regular | `$body_1_compact_regular` |
+|            | Placeholder     | 14px      | 400 regular | `$body_1_compact_regular` |
+|            | Contextual Menu | 14px      | 400 regular | `$body_1_compact_regular` |
+| Large      | Label           | 14px      | 700 bold    | `$label_1_bold`           |
+|            | Helper Text     | 12px      | 400 regular | `$helper_text_1_regular`  |
+|            | Value           | 16px      | 400 regular | `$body_2_compact_regular` |
+|            | Placeholder     | 16px      | 400 regular | `$body_2_compact_regular` |
+|            | Contextual Menu | 16px      | 400 regular | `$body_2_compact_regular` |
+
+### Token Architecture
+
+| Token name                | Description                                            |
+| :------------------------ | :----------------------------------------------------- |
+| `$dropdown_small`         | Defines height for the **small** variant.              |
+| `$dropdown_medium`        | Defines height for the **medium** variant.             |
+| `$dropdown_large`         | Defines height for the **large** variant.              |
+| `$dropdown_padding`       | Defines **padding** for the component.                 |
+| `$dropdown_margin`        | Defines **margin** for the component.                  |
+| `$dropdown_border`        | Defines **border** weight for the accordion component. |
+| `$dropdown_border_radius` | Defines **border radius** for the component.           |
+
+### Structure
+
+Dropdowns have two states, open and closed. An open and closed dropdown should be the same width and appropriately fit the design, layout, and content. The height of a closed dropdown stays consistent while the height of an open dropdown will vary based on the number of options it has. Please note the various color differences for closed and open dropdowns.
+
+**Dropdown**
+| Element               | Property                | Size      | Token name                  |
+| :-------------------- | :---------------------- | :-------- | :-------------------------- |
+| Input                 | Padding Right x Left    | 16px      | `$dropdown_padding`         |
+|                       | Border                  | 1px       | `$dropdown_border`          |
+|                       | Border Radius           | 4px       | `$dropdown_border_radius`   |
+| Icon                  | Margin Left             | 8px       | `$dropdown_margin`          |
+| Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
+| Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
+
+**Contextual Menu**
+The contextual menu sub component uses the same color and specifications as contained lists.
+
+| Element               | Property                | Size      | Token name                      |
+| :-------------------- | :---------------------- | :-------- | :------------------------------ |
+| Menu                  | Border Radius           | 4px       | `$contained_list_border_radius` |
+|                       | Box Shadow              |           | `$shadow_1`                     |
+| Menu Item             | Padding Right x Left    | 16px      | `$contained_list_border_radius` |
+| Menu Item: Icon       | Margin Left             | 8px       | `$contained_list_margin`        |
+| Menu Item: Checkbox   | Margin Right            | 8px       | `$contained_list_margin`        |
+
+### Sizing
+
+The field height and menu option height should always match. These sizes options can be applied to all variants of dropdown.
+
+| Size    | Element               | Property       | Size      | Token name                |
+| :------ | :-------------------- | :------------- | :-------- | :------------------------ |
+| Small   | Input                 | Height         | 32px      | `$dropdown_small`         |
+|         | Icon                  | Height x Width | 20px      | `$icon_small`             |
+|         | Menu Item             | Height         | 32px      | `$contained_list_small`   |
+| Medium  | Input                 | Height         | 40px      | `$dropdown_small`         |
+|         | Icon                  | Height x Width | 24px      | `$icon_small`             |
+|         | Menu Item             | Height         | 40px      | `$contained_list_small`   |
+| Large   | Input                 | Height         | 48px      | `$dropdown_small`         |
+|         | Icon                  | Height x Width | 28px      | `$icon_small`             |
+|         | Menu Item             | Height         | 48px      | `$contained_list_small`   |
+
+
+## Accessibility
+
+### Design considerations
+
+- Avoid very long option names to facilitate understandability and perceivability.
+- Do not use the same word or phrase at the beginning of a set of options.
+- Avoid options that contain headings and interactive elements such as links, buttons, or checkboxes.
+
+### Development considerations
+
+- If the dropdown is a required field include the [aria-required property](https://www.w3.org/TR/WCAG20-TECHS/ARIA2.html) and indicate that it is a required field and use the validation message for input errors.
+
+### Testing
+
+Automated, manual and screen reader accessibility verification test has been performed on the dropdown component.
 
 
 
