@@ -57,6 +57,8 @@ On the cost side, 30%-time investment means the ramp-up phase would be 240/30=8 
 
 On the gain side, a ramp-up phase of 8 months would mean four months of half the productivity gains. That is **`4*(38%/2) =0.76`** months. Afterwards, for the remaining 52 months (about 4 and a half years), we would see full productivity gains, i.e., **`52*38%=19.76`** months. Overall, the design system would therefore save the design team 20.52 months (about 1 year 8 and a half months) of needless work.
 
+<img src="image/value_proposition/formula_3.png" alt="Formula 3"/>
+
 Together with the 7.6 months of work spent on building and maintaining the design system, this yields an ROI of **`(20.52-7.6)/7.6=170%`**. In other words, you get $2.70 back for every dollar invested in the design system.
 
 If one designer costs $5,000 a month, that means the design system would cost Fiserv, 7.6*$5,000*5=$190,000 while it would save them **`20.52*$5,000*5=$513,000`** when looking at the design team alone.
@@ -66,6 +68,8 @@ If one designer costs $5,000 a month, that means the design system would cost Fi
 Doing the same thing for development is straightforward based on the above. Since the designers and developers at Fiserv agreed on everyone investing 30% for ramp-up and 10% for maintenance, the cost side stays the same. Like the designers, the developers will be busy with the design system for 7.6 months effectively over five years.
  
 On the gain side, however, we must exchange the value for Z, from 38 to 31. Luckily, that is the only thing, and the rest remains as above.
+
+<img src="image/value_proposition/formula_4.png" alt="Formula 4"/>
 
 So, in the case of development, we would invest 7.6 months and save 16.74 months of unnecessary work. This gives us an ROI of **`(16.74-7.6)/7.6=120%`**.
 
