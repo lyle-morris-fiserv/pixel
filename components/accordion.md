@@ -20,7 +20,7 @@ Accordions can make information processing and discovering more effective. Howev
 3. **Panel** - the sect ion of content associated with an accordion header.
 
 
-<img src="image/accordion/accordion_usage_anatomy.png" alt="Accordion Usage Anatomy"/>
+<img src="../images/components/accordion/accordion_usage_anatomy.png" alt="Accordion Usage Anatomy"/>
 
 ### Alignment
 
