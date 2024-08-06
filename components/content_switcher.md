@@ -19,6 +19,8 @@ Content switchers are frequently used to let users toggle between different form
 2. **Selected content tab** - Only one content tab can be selected at a time and there should always be one selected.
 3. **Text/Icon label** - Describes the content view.
 
+<img src="image/content_switcher/content_switcher_usage_anatomy.png" alt="Content Switcher Usage Anatomy"/>
+
 ### Height
 
 There are three height sizes for the content switcher: small (32px), medium (40px), and large (48px). Choose a size that best fits the density of your layout or the prominence of the switcher.
@@ -26,6 +28,8 @@ There are three height sizes for the content switcher: small (32px), medium (40p
 ### Width
 
 The overall content switcher width varies based on the content and layout. Each individual content tab should be the same width. The content tab with the longest text label should have 16px spacing to the right of the label. The width of all other tabs should match the widest tab.
+
+<img src="image/content_switcher/content_switcher_usage_width.png" alt="Content Switcher Usage Width"/>
 
 ### Text label
 
@@ -83,6 +87,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
+<img src="image/content_switcher/content_switcher_style_states.png" alt="Content Switcher Style States"/>
+
 ### Typography
 
 Content switcher label text should be set in sentence case, with only the first word in a phrase and any proper nouns capitalized. The label text should not exceed three words.
@@ -118,6 +124,10 @@ Content switchers must have at least two options for the user to choose from. Ea
 |                       | Border                  | 1px       | `$content_switcher_border`       |
 |                       | Border Radius           | 4px       | `$content_switcher_border_radius`|
 
+<img src="image/content_switcher/content_switcher_style_border_radius.png" alt="Content Switcher Style Border Radius"/>
+
+<img src="image/content_switcher/content_switcher_style_padding.png" alt="Content Switcher Style Padding"/>
+
 ### Sizing
 
 | Variant                    | Element                   | Size                       | Token name                 |
@@ -129,11 +139,15 @@ Content switchers must have at least two options for the user to choose from. Ea
 | Large                      | Text                      | 48px                       | `content_switcher_large`   |
 |                            | Icon                      | 28px                       | `$icon_large`              |
 
+<img src="image/content_switcher/content_switcher_style_sizing.png" alt="Content Switcher Style Sizing"/>
+
 ## Accessibility
 
 Each content switcher tab must have a unique title that clearly describes the content panel. This is particularly helpful for users of assistive technologies, so they have the necessary information to efficiently navigate the content. The component should be used to create the content that displays within each content panel.
 
 Content authors need to ensure the content that is added to the tab panel is accessible. For example, if you add an image to the panel you need to include alternative text to pass accessibility testing.
+
+<img src="image/content_switcher/content_switcher_accessibility_keyboard.png" alt="Content Switcher Accessibility Keyboard"/>
 
 ### Testing
 
