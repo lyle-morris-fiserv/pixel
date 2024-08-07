@@ -70,6 +70,8 @@ Data processing refers to manipulations of data to produce meaningful informatio
 2. **Background** - The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
 3. **Percentage** - provides a textual indicator of progress. (optional)
 
+<img src="../images/components/loader/loader_usage_anatomy.png" alt="Loader Usage Anatomy"/>
+
 ### Content
 
 #### Labels
@@ -116,6 +118,8 @@ The Loader Determinate is offered in two different sizes—big (8px) and small (
 
 The width of a Loader Determinate can vary based on the content. The minimum width of a Loader Determinate is 48px and keep its width to a maximum of six columns when possible. If the Loader Determinate width is too long, it can reduce readability. Don’t increase the Loader Determinate length to fill the entire width of a window or application.
 
+<img src="../images/components/loader/loader_usage_width.png" alt="Loader Usage Width"/>
+
 ## Style
 
 Below is the token architecture color build of the components. The token can be changed or defined through the token mapping script that has been placed in the application repository.
@@ -140,6 +144,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Helper Text                | Text Color                 | `$support_error`           |
 |                            | Precentage                 | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
+
+<img src="../images/components/loader/loader_style_state.png" alt="Loader Style States"/>
 
 ### Typography
 
