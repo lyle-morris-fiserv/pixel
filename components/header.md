@@ -148,7 +148,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_primary`            |
 |                            | Icon                       | SVG Color                  | `$icon_primary`            |
 
-<img src="../images/components/header/header_style_links_state.png" alt="Header Usage Links State"/>
+<img src="../images/components/header/header_style_links_states.png" alt="Header Usage Links States"/>
 
 **Utilities actions**
 | State                      | Element                    | Property                   | Token name                 |
@@ -166,7 +166,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            |                            | Border Color               | `$focus`                   |  
 |                            | Icon                       | SVG Color                  | `$icon_primary`            |
 
-<img src="../images/components/header/header_style_utilities_state.png" alt="Header Usage Utilities State"/>
+<img src="../images/components/header/header_style_utilities_states.png" alt="Header Usage Utilities States"/>
 
 ### Typography
 
@@ -248,13 +248,13 @@ Each element in the header can be reached by the Tab key. A “Skip to main cont
 
 Each element in the header can be reached by the Tab key. A “Skip to main content” link appears when a keyboard user first tabs into the page. Links and icons are activated by Enter. Icons can also be activated by Space. The component applies a header region around the whole header.
 
-<img src="../images/components/header/header_accessibility_region.png" alt="Header Accessibility Region"/>
+<img src="../images/components/header/header_accessibility_regions.png" alt="Header Accessibility Regions"/>
 
 ## Labeling
 
 The component provides default names for each icon-only button in the header, and these names are revealed on hover or focus. Interactions for some header components are covered under other component topics such as search, notifications, and the right panel switcher. The component provides default names for its icon-only components and reveals them on hover or focus.
 
-<img src="../images/components/header/header_accessibility_labeling.png" alt="Header Accessibility Labeling"/>
+<img src="../images/components/header/header_accessibility_labels.png" alt="Header Accessibility Labels"/>
 
 ## Design recommendations
 
