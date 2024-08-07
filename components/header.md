@@ -71,8 +71,6 @@ Some users may use a keyboard to navigate your site. Starting focus in the main 
 
 Success Criterion 2.4.1 (Bypass Blocks) suggest bypassing these blocks by providing a “Skip to main” link at the start of the navigation’s focusable controls. This lets users easily skip the navigation region and begin interacting with the page’s main content area.
 
-##### Screen readers
-
 - **Voice Over** - Users can trigger a state change by pressing Control-Option-Space or Space while the header area has screen reader focus.
 - **JAWS** - Users can trigger a state change by pressing Enter or Space while the header area has screen reader focus.
 - **NVDA** - Users can trigger a state change by pressing Enter or Space while the header area has screen reader focus.
