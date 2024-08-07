@@ -11,9 +11,13 @@ The text within an overflow menu should be direct so users can quickly decide on
 1. Trigger icon
 2. Contextual menu
 
+<img src="../images/components/menu/menu_usage_anatomy.png" alt="Menu Usage Anatomy"/>
+
 ### Placement
 
 Depending on where the Overflow menu appears within the UI, the tab tip may appear on the left or right, so it always remains visible.
+
+<img src="../images/components/menu/menu_usage_placement.png" alt="Menu Usage Placement"/>
 
 ## Style
 
