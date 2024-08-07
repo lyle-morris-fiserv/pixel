@@ -91,10 +91,148 @@ As the user interface scales downward the various parts of the header should be 
 - WebAIM, [“Skip Navigation” Links](https://webaim.org/techniques/skipnav/) (2013)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (W3C, 2018)
 
+## Style
 
+Below is the token architecture color build of the components. The token can be changed or defined through the token mapping script that has been placed in the application repository.
 
+### Color
 
+**Header**
+| State                      | Element                    | Property                   | Token name                 |
+| :------------------------- | :------------------------- | :------------------------- | :------------------------- |
+| Enabled                    | Container                  | Background Color           | `$layer_1`                 |
+|                            |                            | Border Color               |                            |
+|                            |                            | Box Shadow                 |                            | 
 
+**Branding**
+| State                      | Element                    | Property                   | Token name                 |
+| :------------------------- | :------------------------- | :------------------------- | :------------------------- |
+| Enabled                    | Container                  | Background Color           |                            |
+|                            |                            | Border Color               | `$border_subtle_1`         |
+|                            |                            | Box Shadow                 |                            |
+|                            | Text                       | Text Color                 | `$text_primary`            |  
+
+**Links**
+| State                      | Element                    | Property                   | Token name                 |
+| :------------------------- | :------------------------- | :------------------------- | :------------------------- |
+| Enabled                    | Container                  | Background Color           |                            |
+|                            |                            | Border Color               | `$border_subtle_1`         |
+|                            |                            | Box Shadow                 |                            |  
+|                            | Label                      | Text Color                 | `$text_secondary`          |
+|                            | Icon                       | SVG Color                  | `$icon_secondary`          |
+| Hover                      | Container                  | Background Color           | `$layer_hover_1`           |
+|                            |                            | Border Color               | `$border_subtle_1`         |
+|                            |                            | Box Shadow                 |                            |  
+|                            | Label                      | Text Color                 | `$text_primary`            |
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+| Selected                   | Container                  | Background Color           | `$backround`               |
+|                            |                            | Border Color               | `$border_subtle_1`         |
+|                            |                            | Box Shadow                 |                            |  
+|                            | Label                      | Text Color                 | `$text_primary`            |
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+| Focus                      | Container                  | Background Color           | `$focus_highlight`         |
+|                            |                            | Border Color               | `$focus`                   |
+|                            |                            | Box Shadow                 |                            |  
+|                            | Label                      | Text Color                 | `$text_primary`            |
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+
+**Utilities actions**
+| State                      | Element                    | Property                   | Token name                 |
+| :------------------------- | :------------------------- | :------------------------- | :------------------------- |
+| Enabled                    | Container                  | Background Color           |                            |
+|                            |                            | Border Color               | `$border_subtle_1`         |  
+|                            | Icon                       | SVG Color                  | `$icon_secondary`          |
+| Hover                      | Container                  | Background Color           | `$layer_hover_1`           |
+|                            |                            | Border Color               | `$border_subtle_1`         |  
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+| Selected                   | Container                  | Background Color           | `$background`              |
+|                            |                            | Border Color               | `$border_subtle_1`         |  
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+| Focus                      | Container                  | Background Color           | `$focus_highlight`         |
+|                            |                            | Border Color               | `$focus`                   |  
+|                            | Icon                       | SVG Color                  | `$icon_primary`            |
+
+### Typography
+
+Menu labels and text should be set in sentence case.
+
+| Element         | Font size | Font weight | Token name                 |
+| --------------- | --------- | ----------- | -------------------------- | 
+| Title           | 16px      | 700 bold    | `$h5_compact_bold`         |
+| Link            | 14px      | 400 regular | `$button_1_regular`        |
+| Contextual menu | 14px      | 400 regular | `$body_1_compact_regular`  |
+
+### Token Architecture
+
+| Token name                  | Description                                            |
+| :-------------------------- | :----------------------------------------------------- |
+| `$header_small`             | Defines height for the **small** variant.              |
+| `$header_medium`            | Defines height for the **medium** variant.             |
+| `$header_large`             | Defines height for the **large** variant.              |
+| `$header_padding`           | Defines **padding** for the component.                 |
+| `$header_margin`            | Defines **margin** for the component.                  |
+| `$header_border`            | Defines **border** weight for the accordion component. |
+| `$header_border_radius`     | Defines **border radius** for the component.           |
+
+### Structure
+
+The header should span the full width of the browser window. The header can either stay sticky to the top of the browser or scroll away.
+
+**Header**
+| Element               | Property                | Size      | Token name                  |
+| :-------------------- | :---------------------- | :-------- | :-------------------------- |
+| Container             | Border Bottom           | 1px       | `$header_border`            |
+
+**Branding**
+| Element               | Property                | Size      | Token name                  |
+| :-------------------- | :---------------------- | :-------- | :-------------------------- |
+| Container             | Border Bottom           | 1px       | `$header_border`            |
+
+**Links**
+| State     | Element               | Property             | Size      | Token name                  |
+| :-------- | :-------------------- | :------------------- | :-------- | :-------------------------- |
+| Enabled   | Container             | Padding Right x Left | 16px      | `$header_padding`           |
+|           |                       | Border Bottom        | 1px       | `$header_border`            |
+|           | Icon                  | Margin Left          | 8px       | `$header_margin`            |
+| Selected  | Container             | Padding Right x Left | 16px      | `$header_padding`           |
+|           |                       | Border Bottom        |           |                             |
+|           |                       | Border Right x Left  | 1px       | `$header_border`            |
+| Focus     | Container             | Padding Right x Left | 16px      | `$header_padding`           |
+|           |                       | Border               | 1px       | `$header_border`            |
+
+**Utility icons**
+| State     | Element               | Property             | Size      | Token name                  |
+| :-------- | :-------------------- | :------------------- | :-------- | :-------------------------- |
+| Enabled   | Container             | Height x Width       | 48px      |                             |
+|           |                       | Border Bottom        | 1px       | `$header_border`            |
+| Selected  | Container             | Height x Width       | 48px      |                             |
+|           |                       | Border Right x Left  | 1px       | `$header_border`            |
+| Focus     | Container             | Height x Width       | 48px      |                             |
+|           |                       | Border               | 1px       | `$header_border`            |
+
+## Accessibility
+
+The header component bakes in keyboard interaction, including a skip-to-main-content mechanism. The component also supports assistive technologies such as screen readers by setting labeling and page structure.
+
+## Keyboard interactions
+
+Each element in the header can be reached by the Tab key. A “Skip to main content” link appears when a keyboard user first tabs into the page. Links and icons are activated by Enter. Icons can also be activated by Space.
+
+## Regions
+
+Each element in the header can be reached by the Tab key. A “Skip to main content” link appears when a keyboard user first tabs into the page. Links and icons are activated by Enter. Icons can also be activated by Space. The component applies a header region around the whole header.
+
+## Labeling
+
+The component provides default names for each icon-only button in the header, and these names are revealed on hover or focus. Interactions for some header components are covered under other component topics such as search, notifications, and the right panel switcher. The component provides default names for its icon-only components and reveals them on hover or focus.
+
+## Design recommendations
+
+For every product, there should be a one-time design exercise to annotate the UI shell keyboard interaction. This is an important step to carry out, since header functionality and component names vary significantly between products, even though they appear similar until interacted with. Annotating expected behavior increases consistent implementation.
+ 
+- Annotate the header, even if your design matches the default component header behavior.
+- Once a product-specific header annotation exists, individual product pages only need to annotate the header if something differs.
+- Where the header deviates from the default component behavior or labeling, it should be annotated. Such annotations could call out different labels for icons or indicate interaction changes such as keyboard navigation.
 
 
 
