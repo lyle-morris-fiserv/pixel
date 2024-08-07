@@ -14,11 +14,11 @@ Common actions that benefit from inline loading include any create, update, or d
 
 ### Variants
 
-| Interactions  | Type            | Purpose |
-|:------------- | :-------------- | :------ |
-| Determinate   | Linear/Circular | Use determinate Loader Determinates where there is clear information about the progression — they convey exact and qualitative information about the progression. |
-| Indeterminate | Linear/Circular | Use indeterminate Loader Determinates where there is unclear information about the progression — they convey that users’ request, action, or data is being processed now without indicating how long the activity will take. |
-| Skeleton      |                 | Skeleton states are simplified versions of components used on an initial page load to indicate that the information on the page has not fully loaded yet. |
+| Interactions  | Purpose |
+|:------------- | :------ |
+| Determinate   | Use determinate Loader Determinates where there is clear information about the progression — they convey exact and qualitative information about the progression. |
+| Indeterminate | Use indeterminate Loader Determinates where there is unclear information about the progression — they convey that users’ request, action, or data is being processed now without indicating how long the activity will take. |
+| Skeleton      | Skeleton states are simplified versions of components used on an initial page load to indicate that the information on the page has not fully loaded yet. |
 
 ### When to use
 
@@ -69,6 +69,8 @@ Data processing refers to manipulations of data to produce meaningful informatio
 1. **Stroke** - Indicates how much the process has progressed.
 2. **Background** - The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
 3. **Percentage** - provides a textual indicator of progress. (optional)
+4. **Skeleton container** - Show the various sections that are currently loading content.
+5. **Skeleton elements** - Shows the type of data that is being loaded
 
 <img src="../images/components/loader/loader_usage_anatomy.png" alt="Loader Usage Anatomy"/>
 
@@ -105,6 +107,8 @@ The error loading state indicates that the action did not successfully complete.
 ### Part of a page
 
 While the Loader Determinate is processing information on part of a page, you can still interact with other elements on the page. When the Loader Determinate finishes processing it can either remain persistent on the page for confirmation or automatically dismiss itself depending on the use case.
+
+<img src="../images/components/loader/loader_usage_part_of_a_page.png" alt="Loader Usage Part of a Page"/>
 
 ### Inside a container
 
