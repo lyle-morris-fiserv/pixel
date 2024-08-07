@@ -45,13 +45,13 @@ Icons are not a required element of the header, and a product may choose to use 
 
 Below are standard utilities items that are used in the header. These options are recognized and standardized in product design by users.
 
-| # | Icon     | Placement |
-| _ | :------- | :-------- |
-| 1 | Search   | Search should always be positioned as the furthest left icon. This is to allow for an expanding search field that does not disrupt other icon positions. |
-| 2 | Other    | The number of header icons a product uses may vary. This placement will help avoid disrupting the position of the core icons and inconsistencies as your user navigates between other product shell headers. |
-| 3 | Help     | Help is positioned 5th from the right. |
-| 4 | Alerts   | Notifications should be 4th from the right when paired with the account and switcher icon. |
-| 5 | Account  | The account should be the 3rd from the right. This global link gives a user quick access to their account from anywhere in the product UI. |
-| 6 | Settings | Settings is position 2nd from the right next to account. |
-| 7 | Switcher | The switcher should always be positioned as the furthest right icon. This ensures the icon does not shift when navigating across systems. |
+|     | Icon     | Placement |
+|:--- | :------- | :-------- |
+| 1   | Search   | Search should always be positioned as the furthest left icon. This is to allow for an expanding search field that does not disrupt other icon positions. |
+| 2   | Other    | The number of header icons a product uses may vary. This placement will help avoid disrupting the position of the core icons and inconsistencies as your user navigates between other product shell headers. |
+| 3   | Help     | Help is positioned 5th from the right. |
+| 4   | Alerts   | Notifications should be 4th from the right when paired with the account and switcher icon. |
+| 5   | Account  | The account should be the 3rd from the right. This global link gives a user quick access to their account from anywhere in the product UI. |
+| 6   | Settings | Settings is position 2nd from the right next to account. |
+| 7   | Switcher | The switcher should always be positioned as the furthest right icon. This ensures the icon does not shift when navigating across systems. |
 
