@@ -33,6 +33,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Overflow Icon              | SVG Color                  | `$icon_interactive`        |
 
 **Menu item**
+
 The contextual menu sub component uses the same color and specifications as contained lists.
 
 | State                      | Element                    | Property                   | Token name                 |

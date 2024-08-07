@@ -390,12 +390,12 @@ The field height and menu option height should always match. These sizes options
 | Small   | Input                 | Height         | 32px      | `$dropdown_small`         |
 |         | Icon                  | Height x Width | 20px      | `$icon_small`             |
 |         | Menu Item             | Height         | 32px      | `$contained_list_small`   |
-| Medium  | Input                 | Height         | 40px      | `$dropdown_small`         |
-|         | Icon                  | Height x Width | 24px      | `$icon_small`             |
-|         | Menu Item             | Height         | 40px      | `$contained_list_small`   |
-| Large   | Input                 | Height         | 48px      | `$dropdown_small`         |
-|         | Icon                  | Height x Width | 28px      | `$icon_small`             |
-|         | Menu Item             | Height         | 48px      | `$contained_list_small`   |
+| Medium  | Input                 | Height         | 40px      | `$dropdown_medium`        |
+|         | Icon                  | Height x Width | 24px      | `$icon_medium`            |
+|         | Menu Item             | Height         | 40px      | `$contained_list_medium`  |
+| Large   | Input                 | Height         | 48px      | `$dropdown_large`         |
+|         | Icon                  | Height x Width | 28px      | `$icon_large`             |
+|         | Menu Item             | Height         | 48px      | `$contained_list_large`   |
 
 <img src="../images/components/dropdown/dropdown_style_input_menu_sizing.png" alt="Dropdown Style Input and Menu Sizing"/>
 

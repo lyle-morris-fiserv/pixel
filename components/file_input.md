@@ -39,6 +39,7 @@ Below is the token architecture color build of the components. The token can be 
 ### Color
 
 **Drag and Drop**
+
 | State                      | Element                    | Property                   | Token name                 |
 | :------------------------- | :------------------------- | :------------------------- | :------------------------- |
 | Enabled                    | Container                  | Background Color           | `$field_1`                 |
@@ -79,6 +80,7 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 
 **File Upload**
+
 | State                      | Element                    | Property                   | Token name                 |
 | :------------------------- | :------------------------- | :------------------------- | :------------------------- |
 | Enabled                    | Container                  | Background Color           | `$field_1`                 |
