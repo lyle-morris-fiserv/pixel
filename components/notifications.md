@@ -61,8 +61,6 @@ Inline notifications show up in task flows, to notify users of the status of an 
 
 <img src="../images/components/notification/notification_usage_inline.png" alt="Notification Usage Inline"/>
 
-<img src="../images/components/notification/notification_usage_placement.png" alt="Notification Usage Placement"/>
-
 #### Formatting
 
 - **Sizing** - The width of inline notifications varies based on content and layout. They can expand to the fill the container or content area they relate to. Their height is based on the content length, which should not exceed two lines of text.
