@@ -29,6 +29,8 @@ If a user can only enter an option from a predefined list, then avoid using a fr
 5. **Resize handle (textarea only)** - Allows a user to manipulate the field height by making it longer or shorter.
 6. **Character counter (textarea only)** - Indicate the number of characters being entered and the total number of characters allowed.
 
+<img src="../images/components/text_input/text_input_usage_anatomy.png" alt="Text Input Usage Anatomy"/>
+
 ### Formats
 
 Use a text input when the expected user input is a single line of text. Text inputs have a fixed height and are used as a simple free-form data entry. Users can enter any combination of letters, numbers, or symbols. The text input can be formatted to accept various types of formats.
@@ -78,6 +80,8 @@ The field widths of both text input and text area should reflect the intended le
 
  - Do make text input widths proportional to the content and align to grid columns.
  - Do not make text inputs excessively wide just to fill in space.
+
+<img src="../images/components/text_input/text_input_usage_width.png" alt="Text Input Usage Width"/>
 
 ### Alignment
 
