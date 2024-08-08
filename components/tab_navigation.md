@@ -14,6 +14,8 @@ Use tabs to group related information into different categories, helping to redu
 - Tabs should not be used to indicate progress. Use the progress indicator instead.
 - Tabs should not be used if the user is comparing information in two groups, as this would result in the user having to click back and forth to complete a task.
 
+<img src="../images/components/tabs/tabs_usage_when_not_to_use.png" alt="Tabs Usage When Not to Use"/>
+
 ### Anatomy
 
 The tab component consists of two distinct zones: selected and unselected. There are always at least two tabs, and one is selected by default. Icons are optional.
@@ -21,6 +23,8 @@ The tab component consists of two distinct zones: selected and unselected. There
 1. Label
 2. Indicator
 3. Icon (Optional)
+
+<img src="../images/components/tabs/tabs_usage_anatomy.png" alt="Tabs Usage Anatomy"/>
 
 ### Alignment
 
