@@ -139,6 +139,8 @@ Columns can be sorted in ascending or descending order. Sorting controls are loc
 
 A sorted data table has three states: unsorted (arrows), sorted-up (arrow--up) or sorted-down (arrow--down). The icon indicates the current sorted state and is only shown if sorting is activated. Only the column being sorted should display an icon, and unsorted icons are only visible on hover.
 
+<img src="../images/components/table/table_usage_sorting.png" alt="Table Usage Sorting"/>
+
 ### Inline actions
 
 Inline actions are functions that may be performed on a specific table row. Each row is accompanied by an overflow menu that contains actions related specifically to that row.
@@ -194,6 +196,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Title                      | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
 
+<img src="../images/components/table/table_style_header_states.png" alt="Table Styles Header States"/>
+
 **Table row (TR)**
 
 | State                      | Element                    | Property                   | Token name                 |
@@ -222,6 +226,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            |                            | Border Color               | `$border_subtle_1`         | 
 |                            | Title                      | Text Color                 | `$support_error`           |
 |                            | Icon                       | SVG Color                  | `$support_error`           |
+
+<img src="../images/components/table/table_style_row_states.png" alt="Table Styles Row States"/>
 
 ### Typography
 
@@ -267,6 +273,8 @@ Tables are a configurable and customizable component. Designers can pick and cho
 | Icon (Right)          | Margin Left             | 8px       | `$table_margin`             |
 | Icon (Left)           | Margin Right            | 8px       | `$table_margin`             |
 
+<img src="../images/components/table/table_style_header_padding.png" alt="Table Styles Header Padding"/>
+
 **Table row (TR)**
 
 | Element               | Property                | Size      | Token name                  |
@@ -275,6 +283,8 @@ Tables are a configurable and customizable component. Designers can pick and cho
 |                       | Border Bottom           | 1px       | `$table_border`             |
 | Icon (Right)          | Margin Left             | 8px       | `$table_margin`             |
 | Icon (Left)           | Margin Right            | 8px       | `$table_margin`             |
+
+<img src="../images/components/table/table_style_row_padding.png" alt="Table Styles Row Padding"/>
 
 **Table row expandable (TR)**
 
