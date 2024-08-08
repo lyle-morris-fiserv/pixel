@@ -238,7 +238,7 @@ The Stepper replicates the behavior of the stock HTML component. The Steppers ta
 
 The Stepper is reachable by Tab and changed with the arrow keys or by directly entering a number.
 
-<img src="../images/components/stepper/stepper_accessibilty_keyboard.png" alt="Stepper Accessibility Keyboard"/>
+<img src="../images/components/stepper/stepper_accessibility_keyboard.png" alt="Stepper Accessibility Keyboard"/>
 
 ### Error handling
 
