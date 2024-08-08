@@ -87,6 +87,8 @@ The field widths of both text input and text area should reflect the intended le
 
 Labels and field containers should vertically align to the grid and with other form components on a page.
 
+<img src="../images/components/text_input/text_input_usage_alignment.png" alt="Text Input Usage Alignment"/>
+
 ### Content
 
 #### Labels
@@ -127,6 +129,8 @@ If a user’s content exceeds the vertical space of the variable textarea then a
 ### Validation
 
 An error state is triggered if the data is invalid, or a required field is left empty. Error states have three visual indicators to signify invalid content: a red border, an error icon indicator, and an error message.
+
+<img src="../images/components/text_input/text_input_usage_validation.png" alt="Text Input Usage Validation"/>
 
 ### Default values
 
@@ -203,6 +207,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Placeholder                | Text Color                 | `$support_success`         |
 |                            | Help Text                  | Text Color                 | `$support_success`         |
 |                            | Icon                       | SVG Color                  | `$support_success`         |
+
+<img src="../images/components/text_input/text_input_style_state.png" alt="Text Input Style State"/>
 
 **Textarea**
 
