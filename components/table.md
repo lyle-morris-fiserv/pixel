@@ -35,6 +35,10 @@ The data table toolbar gives a location for primary buttons, search, filtering, 
 4. **Pagination** table bar - an optional component that lets a user navigate data as pages when the amount of data it too large to be shown at once.
 5. **Toolbar** - global data table controls including search and table settings.
 
+<img src="../images/components/table/table_usage_desktop_anatomy.png" alt="Table Usage Desktop Anatomy"/>
+
+<img src="../images/components/table/table_usage_mobile_anatomy.png" alt="Table Usage Mobile Anatomy"/>
+
 ### Size
 
 The data table is available in five different row sizes: extra-large, large, medium, small, extra small. The column header row thead should always match the row size of the table. Extra-large row heights are only recommended if your data is expected to have 2 lines of content in a single row.
