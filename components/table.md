@@ -49,6 +49,8 @@ Two heights are available to be paired with the row heights of the data table. T
 
 <img src="../images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
 
+<img src="../images/components/table/table_usage_sizing.png" alt="Table Usage Sizing"/>
+
 ### Placement
 
 Data tables should be placed in a page’s main content area and given plenty of space to display data without truncation. Avoid placing data tables inside modals or smaller containers where the information can feel cramped or needs truncation.
@@ -291,6 +293,8 @@ Row sizes are customizable. The column header row should always match the row si
 |         | Icon                  | 24px      | `$icon_medium`             |
 | Large   | Container             | 56px      | `$table_large`             |
 |         | Content Switcher      | 28px      | `$icon_large`              |
+
+<img src="../images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
 
 ### Enhancements
 
