@@ -345,6 +345,8 @@ The component bakes keyboard operation into its components, improving the experi
 
 There are three data table variants with different interactions. Optional features like column sorting can appear in any of the variants. Table pagination is treated as a separate component. For sortable tables, the column headers are reachable by Tab and sortable with Space or Enter.
 
+<img src="../images/components/table/table_accessibility_keyboard.png" alt="Table Accessibility Keyboard"/>
+
 ### Controls inside table
 
 Any interactive controls in data cells are in the tab order and maintain normal keyboard operation. This also applies to expandable table rows, which operate in the same manner as accordions. Links, inputs, and other interactive controls inside tables operate by keyboard as normal.
