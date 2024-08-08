@@ -111,9 +111,13 @@ Users can trigger an action or function in the table by clicking the associated 
 
 The data table’s row hover state should always be enabled as it can help the user visually scan the columns of data in a row even if the row is not interactive.
 
+<img src="../images/components/table/table_usage_hover.png" alt="Table Usage Hover"/>
+
 ### Pagination
 
 Pagination divides table data into separate pages. Simple pagination indicates the current page in view and offers controls to incrementally navigate to the previous or next page. Advanced pagination is accompanied by an option that enables the user to change the number of items per page and to jump to a specific page number. The pagination component is always placed at the bottom of the data table. See the pagination component for further guidelines and configurations.
+
+<img src="../images/components/table/table_usage_pagination.png" alt="Table Usage Pagination"/>
 
 ### Table toolbar
 
