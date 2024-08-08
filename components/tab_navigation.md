@@ -34,6 +34,8 @@ Much like buttons, alignment of tabs depends on where they appear and whether th
 - Do vertically align tab labels with the grid.
 - Do not vertically align tab containers with the grid.
 
+<img src="../images/components/tabs/tabs_usage_alignment.png" alt="Tabs Usage Alignment"/>
+
 ### Auto width
 
 Line tabs, auto-width is the default behavior. Each tab will be a different size depending on the label’s character count but will have consistent padding on each side of the label. The first label, selected by default, should align to the grid. Where the tabs end will vary and may not end on the grid. If needed, you may also use a line to help balance tabs with other components on the page.
@@ -114,6 +116,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Label                      | Text Color                 | `$text_disabled`           |
 |                            | Icon                       | SVG Color                  | `$icon_disabled`           |
 
+<img src="../images/components/tabs/tabs_style_states.png" alt="Tabs Style States"/>
+
 ### Typography
 
 Tab labels should be set in sentence case and should not exceed three words.
@@ -159,6 +163,8 @@ Tab labels should be set in sentence case and should not exceed three words.
 |                  | Icon (Right)          | Margin Left             | 8px       | `$tab_margin`               |
 |                  | Icon (Left)           | Margin Right            | 8px       | `$tab_margin`               |
 
+<img src="../images/components/tabs/tabs_style_padding.png" alt="Tabs Style Padding"/>
+
 ### Size
 
 | Size    | Element               |  Size     | Token name                 |
@@ -169,6 +175,8 @@ Tab labels should be set in sentence case and should not exceed three words.
 |         | Icon                  | 24px      | `$icon_medium`             |
 | Large   | Container             | 48px      | `$tab_large`               |
 |         | Content Switcher      | 28px      | `$icon_large`              |
+
+<img src="../images/components/tabs/tabs_style_sizing.png" alt="Tabs Style Sizing"/>
 
 ## Accessibility
 
@@ -194,6 +202,8 @@ Automatic and manual tablists differ in how the tab items are activated. The fol
 For automatic tablists, focus and selection are synchronized. When the user arrows to a tab, it is selected, and the tabpanel under the tab is updated in real time.
 
 Manual tablists allow the user to arrow between the tab items without updating the tabpanel underneath. When the user right arrows, the Overview tab remains selected while focus moves to the Details tab. To select the Details tab (and update the tabpanel under the tab), the user would press `Enter` or `Space`.
+
+<img src="../images/components/tabs/tabs_accessiblity_keyboard.png" alt="Tabs Accessibility Keyboard"/>
 
 ### Indicate which variant to implement
 
