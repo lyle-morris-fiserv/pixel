@@ -8,13 +8,14 @@ Tabs are used to group different but related content, allowing users to navigate
 
 Use tabs to group related information into different categories, helping to reduce cognitive load.
 
+<img src="../images/components/tabs/tabs_usage_when_to_use.png" alt="Tabs Usage When to Use"/>
+
 ### When not to use
 
 - Tabs should never be used for primary navigation. If tabs become too complex, consider using a standard navigation pattern.
 - Tabs should not be used to indicate progress. Use the progress indicator instead.
 - Tabs should not be used if the user is comparing information in two groups, as this would result in the user having to click back and forth to complete a task.
 
-<img src="../images/components/tabs/tabs_usage_when_not_to_use.png" alt="Tabs Usage When Not to Use"/>
 
 ### Anatomy
 
