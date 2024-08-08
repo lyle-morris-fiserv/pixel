@@ -30,6 +30,8 @@ The phone inputs are a common UI feature for tons of websites and applications. 
 9. Country name
 10. Country flag
 
+<img src="../images/components/phone_input/phone_input_usage_anatomy.png" alt="Phone Input Usage Anatomy"/>
+
 ### Country selector
 
 Phone numbers are standardized in an international format known as E.164 which combines country codes and subscriber numbers in a format like this: +14155552671. This format is required by many APIs and means that you don't have to store country codes and phone numbers in two separate database columns.
@@ -49,12 +51,16 @@ The selected country determines the format to use to validate phone numbers. If 
 
 The phone field input directive validates phone numbers based on the format for the selected country. You must specify an error message. In most cases, the error message should be "Enter a phone number matching the format for the selected country."
 
+<img src="../images/components/phone_input/phone_input_usage_validation.png" alt="Phone Input Usage Validation"/>
+
 #### Do not split input fields
 
 From first glance, splitting the field into a few fields will solve the problem of formatting the user will have a natural constraint that will prevent them from adding an incorrect number. However, this design decision will introduce a few serious problems:
 
 - Higher interaction cost. The user will need to navigate from one field to another. This is particularly difficult for mobile users because they cannot rely on Tab to move to another field.
 - This solution won't work for different phone formatting. Creating input fields localized to one country can cause problems for international user they won't be able to provide a number in their format. For example, the US phone format is the same for local and mobile number +1 (xxx) xxx-xx-xx while for the UK the format varies drastically depending on the region.
+
+<img src="../images/components/phone_input/phone_input_usage_split_field.png" alt="Phone Input Usage Split Field"/>
 
 ### Reference
 
@@ -102,6 +108,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Title                      | Text Color                 | `$support_success`         |
 |                            | Content                    | Text Color                 | `$support_success`         |
 |                            | Icon                       | SVG Color                  | `$support_success`         |
+
+<img src="../images/components/phone_input/phone_input_style_states.png" alt="Phone Input Style States"/>
 
 ### Typography
 
@@ -151,6 +159,8 @@ Input labels should use sentence case, with only the first word in a phrase and 
 |                       | Height                  | 28px      |                             |
 |                       | Border Right            | 24px      | `$phone_input_border`       |
 
+<img src="../images/components/phone_input/phone_input_style_padding.png" alt="Phone Input Style Padding"/>
+
 ### Sizing
 
 | Size    | Element               | Property       | Size      | Token name                |
@@ -161,6 +171,8 @@ Input labels should use sentence case, with only the first word in a phrase and 
 |         | Icon                  | Height x Width | 24px      | `$icon_medium`            |
 | Large   | Input                 | Height         | 48px      | `$phone_input_large`      |
 |         | Icon                  | Height x Width | 28px      | `$icon_large`             |
+
+<img src="../images/components/phone_input/phone_input_style_sizing.png" alt="Phone Input Style Sizing"/>
 
 ## Accessibility
 
