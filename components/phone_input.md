@@ -159,6 +159,8 @@ Input labels should use sentence case, with only the first word in a phrase and 
 |                       | Height                  | 28px      |                             |
 |                       | Border Right            | 24px      | `$phone_input_border`       |
 
+<img src="../images/components/phone_input/phone_input_style_international_padding.png" alt="Phone Input Style International Padding"/>
+
 <img src="../images/components/phone_input/phone_input_style_padding.png" alt="Phone Input Style Padding"/>
 
 ### Sizing
@@ -172,7 +174,7 @@ Input labels should use sentence case, with only the first word in a phrase and 
 | Large   | Input                 | Height         | 48px      | `$phone_input_large`      |
 |         | Icon                  | Height x Width | 28px      | `$icon_large`             |
 
-<img src="../images/components/phone_input/phone_input_style_sizing.png" alt="Phone Input Style Sizing"/>
+<img src="../images/components/phone_input/phone_input_style_international_sizing.png" alt="Phone Input Style Sizing"/>
 
 ## Accessibility
 
