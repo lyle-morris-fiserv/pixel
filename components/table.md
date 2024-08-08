@@ -33,7 +33,6 @@ The data table toolbar gives a location for primary buttons, search, filtering, 
 2. **Column header** - title for the row header with the optional sorting behavior.
 3. **Table row** - can be configured to show different types of data. Rows can be selectable, expandable, and modified to show alternating zebra stripe background colors.
 4. **Pagination** table bar - an optional component that lets a user navigate data as pages when the amount of data it too large to be shown at once.
-5. **Toolbar** - global data table controls including search and table settings.
 
 <img src="../images/components/table/table_usage_desktop_anatomy.png" alt="Table Usage Desktop Anatomy"/>
 
@@ -48,6 +47,7 @@ The data table is available in five different row sizes: extra-large, large, med
 
 Two heights are available to be paired with the row heights of the data table. The tall toolbar should only be paired with the large and extra-large row heights and the small toolbar should only be used with the small and extra small row heights. A small toolbar on a short data table and a tall toolbar on a normal data table.
 
+<img src="../images/components/table/table_style_sizing.png" alt="Table Style Sizing"/>
 
 ### Placement
 
