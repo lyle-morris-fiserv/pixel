@@ -150,7 +150,7 @@ Where possible, add programmatic assistance. Detect and pre-fill inputs to reduc
 
 Text inputs can be labeled as either optional or required depending on the depending on the circumstance.
 
-<img src="../images/components/text_input/text_input_usage_required_versus_optional.png" alt="Text Input Usage Required versus Optional"/>
+<img src="../images/components/text_input/text_inputs_usage_required_versus_optional.png" alt="Text Input Usage Required versus Optional"/>
 
 ### Universal behaviors
 
