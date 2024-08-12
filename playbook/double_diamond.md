@@ -73,3 +73,5 @@ Each phase of this process either makes you diverge or converge. Diverging phase
 - *How do I get started?*
 - *How do I conduct an interview?*
 - *How do I stay human-centered?*
+
+<img src="../images/double_diamond/diversion_versus_conversion.png" alt="Diversion versus Conversion"/>
