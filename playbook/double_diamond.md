@@ -96,7 +96,7 @@ Each phase of this process either makes you diverge or converge. Diverging phase
 
 How does this framework align in an organizational context? When taking a step back, the four phases may be summarized as two main stages. Each stage aiming at a goal and resulting in an outcome, placing it in the corresponding organizational matrix.
 
-<img src="../images/double_diamond/stage_1_experience_strategy.png" alt="Stage 1 Experience Strategy"/>
+<img src="../images/double_diamond/stage_1_experience_strategy.png" alt="Stage 1 Experience Strategy" width="75%"/>
 
 ### Stage 1 - Experience Strategy
 
