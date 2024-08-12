@@ -200,6 +200,35 @@ The selectable tag variant only uses core tokens and does not use component toke
 
 <img src="../images/components/tag/tag_style_operational_colors.png" alt="Tag Style Operational Colors"/>
 
+#### Selectable tag colors
 
+<img src="../images/components/tag/tag_style_selectable_colors.png" alt="Tag Style Selectable Colors"/>
 
+| Variant             | Color                | State                | Element              | Property             | Token name           |
+| :------------------ | :------------------  | :------------------  | :------------------  | :------------------  | :------------------  |
+| Dismissible tag     | All colors           | Hover                | Container            | Background Color     | See color palette    |
+|                     |                      | Focus                | Border               | Border Color         | $focus               |
+|                     |                      | Disabled             | Text                 | Text Color           | $text_disabled       |
+|                     |                      |                      | Background           | Background Color     | $layer_disabled_1    |
+|                     |                      |                      | Icon                 | SVG Color            | $icon_disabled       |
+|                     | Outline              | Hover                | Container            | Background Color     | $layer_hover_1       |
+|                     |                      | Focus                | Border               | Border Color         | $focus               |
+|                     |                      | Disabled             | Text                 | Text Color           | $text_disabled       |
+|                     |                      |                      | Background           | Background Color     | $layer_disabled_1    |
+|                     |                      |                      | Border               | Border Color         | $border_disabled_1   |
+|                     |                      |                      | Icon                 | SVG Color            | $icon_disabled       |
+
+| Operational tag     | All colors           | Hover                | Container            | Background Color     | See color palette    |
+|                     |                      | Focus                | Border               | Border Color         | $focus               |
+|                     |                      | Disabled             | Text                 | Text Color           | $text_disabled       |
+|                     |                      |                      | Background           | Background Color     | $layer_disabled_1    |
+|                     |                      |                      | Icon                 | SVG Color            | $icon_disabled       |
+
+| Selectable tag      |                      | Hover                | Container            | Background Color     | $layer_hover_1       |
+|                     |                      | Focus                | Border               | Border Color         | $focus               |
+|                     |                      | Disabled             | Text                 | Text Color           | $text_disabled       |
+|                     |                      |                      | Background           | Background Color     | $layer_disabled_1    |
+|                     |                      |                      | Icon                 | SVG Color            | $icon_disabled       |
+
+<img src="../images/components/tag/tag_style_dismissible_states.png" alt="Tag Style Dismissible States"/>
 
