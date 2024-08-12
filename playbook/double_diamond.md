@@ -96,12 +96,15 @@ Each phase of this process either makes you diverge or converge. Diverging phase
 
 How does this framework align in an organizational context? When taking a step back, the four phases may be summarized as two main stages. Each stage aiming at a goal and resulting in an outcome, placing it in the corresponding organizational matrix.
 
-<img src="../images/double_diamond/stage_1_experience_strategy.png" alt="Stage 1 Experience Strategy" width="75%"/>
 
 ### Stage 1 - Experience Strategy
 
 The first two phases - Discover & Define - are all about “doing the right thing” (goal) and finding the right question to answer or the right problem to solve. This is when we talk about establishing an experience strategy (outcome).
 
+<img src="../images/double_diamond/stage_1_experience_strategy.png" alt="Stage 1 Experience Strategy" width="75%"/>
+
+### Stage 2 - Experience Design
+
+The following two phases - Develop & Deliver - are all about doing things right (goal) and finding the right answer or the right way to solve the problem. That’s when we talk about executing the experience design (outcome).
+
 <img src="../images/double_diamond/stage_2_experience_design.png" alt="Stage 2 Experience Design"/>
-
-
