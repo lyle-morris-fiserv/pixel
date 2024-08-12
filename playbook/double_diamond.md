@@ -74,4 +74,20 @@ Each phase of this process either makes you diverge or converge. Diverging phase
 - *How do I conduct an interview?*
 - *How do I stay human-centered?*
 
+### Ideation
+
+**I have an opportunity for design.**
+
+- *How do I interpret what I’ve learned?*
+- *How do I turn my insights into tangible ideas?*
+- *How do I make a prototype?*
+
+### Implementation
+
+**I have a innovation solution.**
+
+- *How do I make my concept real?*
+- *How do I assess if it’s working?*
+- *How do I place for sustainability?*
+
 <img src="../images/double_diamond/diversion_versus_conversion.png" alt="Diversion versus Conversion"/>
