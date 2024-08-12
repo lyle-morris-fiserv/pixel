@@ -91,3 +91,17 @@ Each phase of this process either makes you diverge or converge. Diverging phase
 - *How do I place for sustainability?*
 
 <img src="../images/double_diamond/diversion_versus_conversion.png" alt="Diversion versus Conversion"/>
+
+## Strategy versus design
+
+How does this framework align in an organizational context? When taking a step back, the four phases may be summarized as two main stages. Each stage aiming at a goal and resulting in an outcome, placing it in the corresponding organizational matrix.
+
+<img src="../images/double_diamond/stage_1_experience_strategy.png" alt="Stage 1 Experience Strategy"/>
+
+### Stage 1 - Experience Strategy
+
+The first two phases - Discover & Define - are all about “doing the right thing” (goal) and finding the right question to answer or the right problem to solve. This is when we talk about establishing an experience strategy (outcome).
+
+<img src="../images/double_diamond/stage_2_experience_design.png" alt="Stage 2 Experience Design"/>
+
+
