@@ -50,13 +50,19 @@ Use a text input when the expected user input is a single line of text. Text inp
 
 Password input is a sub-variant of text input. It is used to collect private data and will hide the characters as a user enters them. A user can choose to toggle on the character visibility by clicking the view icon on the far right of the input field. When using a password input be sure to provide detailed helper text listing any requirements related to the data format, such as types of characters allowed or date structure.
 
+<img src="../images/components/text_input/text_input_usage_password_input.png" alt="Text Input Usage Password Input"/>
+
 ### Masked input data
 
 Like the password variant above, this provides real time masking of sensitive data with the option of providing fully masked, or partially mask.
 
+<img src="../images/components/text_input/text_input_usage_card_number_input.png" alt="Text Input Usage Card Number"/>
+
 ### Currency data
 
 Using this variant for the text input provides better user intention within the form structure. The dollar sign is auto generated based on user input of numerical data. If the users input alphabetical data, the text input will generate an error validation.
+
+<img src="../images/components/text_input/text_input_usage_currency_input.png" alt="Text Input Usage Currency Input"/>
 
 ### Textarea
 
@@ -66,9 +72,13 @@ Use a text area when the expected user input is more than a few words and could 
 
 Included by default in text area is the resize handle. It allows a user to manipulate the field height by making it longer or shorter. The resize handle has no effect on the width of the text area container, it only effects the height. If the user makes the field size shorter than the content inside the field, then a vertical scroll will become available.
 
+<img src="../images/components/text_input/text_input_usage_textarea_resize_handle.png" alt="Text Input Usage Textarea Resize Handle"/>
+
 #### Character counter
 
 A character counter can be added to text area to indicate both the number of characters being entered and the total number of characters allowed. Once the max number of characters is reached the text area should prevent the user from entering any additional character and provide messaging to the user that a limit has been met.
+
+<img src="../images/components/text_input/text_input_usage_textarea_character_counter.png" alt="Text Input Usage Textarea Character Counter"/>
 
 #### Textarea height
 
@@ -140,11 +150,15 @@ Where possible, add programmatic assistance. Detect and pre-fill inputs to reduc
 
 Text inputs can be labeled as either optional or required depending on the depending on the circumstance.
 
+<img src="../images/components/text_input/text_input_usage_required_versus_optional.png" alt="Text Input Usage Required versus Optional"/>
+
 ### Universal behaviors
 
 #### Mouse
 
 Users can activate a text input by clicking on the field container. A separate click is required to activate any additional actions associated with the text input such as a tooltip or password visibility toggle.
+
+<img src="../images/components/text_input/text_input_usage_mouse.png" alt="Text Input Usage Mouse"/>
 
 #### Keyboard
 
@@ -264,6 +278,8 @@ Below is the token architecture color build of the components. The token can be 
 |                            | Icon                       | SVG Color                  | `$support_success`         |
 |                            | Resize handle              | SVG Color                  | `$support_success`         |
 |                            | Character counter          | Text Color                 | `$support_success`         |
+
+<img src="../images/components/text_input/text_input_style_textarea_states.png" alt="Text Input Style Textarea States"/>
 
 ### Typography
 
