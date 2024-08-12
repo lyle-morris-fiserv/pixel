@@ -70,6 +70,6 @@ Each phase of this process either makes you diverge or converge. Diverging phase
 
 **I have a design challenge**
 
-*How do I get started?*
-*How do I conduct an interview?*
-*How do I stay human-centered?*
+- *How do I get started?*
+- *How do I conduct an interview?*
+- *How do I stay human-centered?*
