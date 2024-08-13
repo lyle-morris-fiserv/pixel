@@ -321,11 +321,11 @@ Text input labels and placeholder text should be set in sentence case, with only
 
 | Element               | Property                | Size      | Token name                  |
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| Input                 | Padding Right x Left    | 16px      | `$phone_input_padding`      |
-|                       | Border                  | 1px       | `$phone_input_border`       |
-|                       | Border Radius           | 4px       | `$phone_input_border_radius`|
-| Icon (Left)           | Margin Right            | 8px       | `$phone_input_margin`       |
-| Icon (Right)          | Margin Left             | 8px       | `$phone_input_margin`       |
+| Input                 | Padding Right x Left    | 16px      | `$text_input_padding`       |
+|                       | Border                  | 1px       | `$text_input_border`        |
+|                       | Border Radius           | 4px       | `$text_input_border_radius` |
+| Icon (Left)           | Margin Right            | 8px       | `$text_input_margin`        |
+| Icon (Right)          | Margin Left             | 8px       | `$text_input_margin`        |
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 
@@ -335,11 +335,11 @@ Text input labels and placeholder text should be set in sentence case, with only
 
 | Element               | Property                | Size      | Token name                  |
 | :-------------------- | :---------------------- | :-------- | :-------------------------- |
-| Input                 | Padding Right x Left    | 16px      | `$phone_input_padding`      |
-|                       | Border                  | 1px       | `$phone_input_border`       |
-|                       | Border Radius           | 4px       | `$phone_input_border_radius`|
-| Icon (Left)           | Margin Right            | 8px       | `$phone_input_margin`       |
-| Icon (Right)          | Margin Left             | 8px       | `$phone_input_margin`       |
+| Input                 | Padding Right x Left    | 16px      | `$textarea_padding`         |
+|                       | Border                  | 1px       | `$textarea_border`          |
+|                       | Border Radius           | 4px       | `$textare_border_radius`    |
+| Icon (Left)           | Margin Right            | 8px       | `$textarea_margin`          |
+| Icon (Right)          | Margin Left             | 8px       | `$textarea_margin`          |
 | Label                 | Margin Bottom           | 2px       | `$spacing_2`                |
 | Helper Text           | Margin Top              | 2px       | `$spacing_2`                |
 | Character Counter     | Margin Top              | 2px       | `$spacing_2`                |
